@@ -1,0 +1,14 @@
+# build artefacts
+dist/*
+coverage/*
+.next/*
+public/*
+
+# data definition files
+**/*.d.ts
+
+# test mock files
+__mocks__/*
+
+# configuration files at the root dir
+/*.js
