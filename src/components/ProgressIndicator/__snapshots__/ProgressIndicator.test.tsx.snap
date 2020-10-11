@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressIndicator /> should match a snapshot 1`] = `
+<ProgressIndicator>
+  <Styled(WithStyles(ForwardRef(LinearProgress)))
+    position="top"
+  >
+    <WithStyles(ForwardRef(LinearProgress))
+      className="jicwCj"
+      position="top"
+    >
+      <ForwardRef(LinearProgress)
+        className="jicwCj"
+        classes={
+          Object {
+            "bar": "MuiLinearProgress-bar",
+            "bar1Buffer": "MuiLinearProgress-bar1Buffer",
+            "bar1Determinate": "MuiLinearProgress-bar1Determinate",
+            "bar1Indeterminate": "MuiLinearProgress-bar1Indeterminate",
+            "bar2Buffer": "MuiLinearProgress-bar2Buffer",
+            "bar2Indeterminate": "MuiLinearProgress-bar2Indeterminate",
+            "barColorPrimary": "MuiLinearProgress-barColorPrimary",
+            "barColorSecondary": "MuiLinearProgress-barColorSecondary",
+            "buffer": "MuiLinearProgress-buffer",
+            "colorPrimary": "MuiLinearProgress-colorPrimary",
+            "colorSecondary": "MuiLinearProgress-colorSecondary",
+            "dashed": "MuiLinearProgress-dashed",
+            "dashedColorPrimary": "MuiLinearProgress-dashedColorPrimary",
+            "dashedColorSecondary": "MuiLinearProgress-dashedColorSecondary",
+            "determinate": "MuiLinearProgress-determinate",
+            "indeterminate": "MuiLinearProgress-indeterminate",
+            "query": "MuiLinearProgress-query",
+            "root": "MuiLinearProgress-root",
+          }
+        }
+        position="top"
+      >
+        <div
+          className="MuiLinearProgress-root MuiLinearProgress-colorPrimary jicwCj MuiLinearProgress-indeterminate"
+          position="top"
+          role="progressbar"
+        >
+          <div
+            className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+            style={Object {}}
+          />
+          <div
+            className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+            style={Object {}}
+          />
+        </div>
+      </ForwardRef(LinearProgress)>
+    </WithStyles(ForwardRef(LinearProgress))>
+  </Styled(WithStyles(ForwardRef(LinearProgress)))>
+</ProgressIndicator>
+`;

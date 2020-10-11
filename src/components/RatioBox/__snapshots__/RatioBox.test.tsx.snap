@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatioBox /> should match a snapshot 1`] = `
+<RatioBox
+  ratio={75}
+>
+  <ForwardRef>
+    <Styled(Styled(MuiBox))>
+      <Styled(MuiBox)
+        className="hkFgNP"
+      >
+        <div
+          className="MuiBox-root MuiBox-root-1 hkFgNP"
+        >
+          <Styled(Component)
+            ratio={75}
+          >
+            <ForwardRef
+              className="bZSHXs"
+              ratio={75}
+            >
+              <Styled(Styled(MuiBox))
+                className="bZSHXs"
+                ratio={75}
+              >
+                <Styled(MuiBox)
+                  className="hkFgNP bZSHXs"
+                  ratio={75}
+                >
+                  <div
+                    className="MuiBox-root MuiBox-root-2 hkFgNP bZSHXs"
+                    ratio={75}
+                  >
+                    <Styled(Component)>
+                      <ForwardRef
+                        className="cmVGKu"
+                      >
+                        <Styled(Styled(MuiBox))
+                          className="cmVGKu"
+                        >
+                          <Styled(MuiBox)
+                            className="hkFgNP cmVGKu"
+                          >
+                            <div
+                              className="MuiBox-root MuiBox-root-3 hkFgNP cmVGKu"
+                            >
+                              Test
+                            </div>
+                          </Styled(MuiBox)>
+                        </Styled(Styled(MuiBox))>
+                      </ForwardRef>
+                    </Styled(Component)>
+                  </div>
+                </Styled(MuiBox)>
+              </Styled(Styled(MuiBox))>
+            </ForwardRef>
+          </Styled(Component)>
+        </div>
+      </Styled(MuiBox)>
+    </Styled(Styled(MuiBox))>
+  </ForwardRef>
+</RatioBox>
+`;

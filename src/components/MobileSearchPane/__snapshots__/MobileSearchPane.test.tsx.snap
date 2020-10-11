@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MobileSearchPane /> should match a snapshot 1`] = `
+<ForwardRef
+  0="o"
+  1="n"
+  2="S"
+  3="e"
+  4="a"
+  5="r"
+  6="c"
+  7="h"
+>
+  <Styled(Component)>
+    <ForwardRef
+      className="fYKoFI"
+    >
+      <Styled(Styled(MuiBox))
+        className="fYKoFI"
+      >
+        <Styled(MuiBox)
+          className="GqIxr fYKoFI"
+        >
+          <div
+            className="MuiBox-root MuiBox-root-1 GqIxr fYKoFI"
+          >
+            <ForwardRef
+              0="o"
+              1="n"
+              2="S"
+              3="e"
+              4="a"
+              5="r"
+              6="c"
+              7="h"
+              inputRef={
+                Object {
+                  "current": <input
+                    aria-label="Search"
+                    autocomplete="off"
+                    class="MuiInputBase-input MuiInputBase-inputTypeSearch"
+                    placeholder="Search"
+                    type="search"
+                    value=""
+                  />,
+                }
+              }
+            >
+              <Styled(WithStyles(ForwardRef(Paper)))
+                component="form"
+                onFocus={[Function]}
+                onSubmit={[Function]}
+                square={true}
+              >
+                <WithStyles(ForwardRef(Paper))
+                  className="gZhdDu"
+                  component="form"
+                  onFocus={[Function]}
+                  onSubmit={[Function]}
+                  square={true}
+                >
+                  <ForwardRef(Paper)
+                    className="gZhdDu"
+                    classes={
+                      Object {
+                        "elevation0": "MuiPaper-elevation0",
+                        "elevation1": "MuiPaper-elevation1",
+                        "elevation10": "MuiPaper-elevation10",
+                        "elevation11": "MuiPaper-elevation11",
+                        "elevation12": "MuiPaper-elevation12",
+                        "elevation13": "MuiPaper-elevation13",
+                        "elevation14": "MuiPaper-elevation14",
+                        "elevation15": "MuiPaper-elevation15",
+                        "elevation16": "MuiPaper-elevation16",
+                        "elevation17": "MuiPaper-elevation17",
+                        "elevation18": "MuiPaper-elevation18",
+                        "elevation19": "MuiPaper-elevation19",
+                        "elevation2": "MuiPaper-elevation2",
+                        "elevation20": "MuiPaper-elevation20",
+                        "elevation21": "MuiPaper-elevation21",
+                        "elevation22": "MuiPaper-elevation22",
+                        "elevation23": "MuiPaper-elevation23",
+                        "elevation24": "MuiPaper-elevation24",
+                        "elevation3": "MuiPaper-elevation3",
+                        "elevation4": "MuiPaper-elevation4",
+                        "elevation5": "MuiPaper-elevation5",
+                        "elevation6": "MuiPaper-elevation6",
+                        "elevation7": "MuiPaper-elevation7",
+                        "elevation8": "MuiPaper-elevation8",
+                        "elevation9": "MuiPaper-elevation9",
+                        "outlined": "MuiPaper-outlined",
+                        "root": "MuiPaper-root",
+                        "rounded": "MuiPaper-rounded",
+                      }
+                    }
+                    component="form"
+                    onFocus={[Function]}
+                    onSubmit={[Function]}
+                    square={true}
+                  >
+                    <form
+                      className="MuiPaper-root gZhdDu MuiPaper-elevation1"
+                      onFocus={[Function]}
+                      onSubmit={[Function]}
+                    >
+                      <WithStyles(ForwardRef(IconButton))
+                        aria-label="go back"
+                        color="inherit"
+                      >
+                        <ForwardRef(IconButton)
+                          aria-label="go back"
+                          classes={
+                            Object {
+                              "colorInherit": "MuiIconButton-colorInherit",
+                              "colorPrimary": "MuiIconButton-colorPrimary",
+                              "colorSecondary": "MuiIconButton-colorSecondary",
+                              "disabled": "Mui-disabled",
+                              "edgeEnd": "MuiIconButton-edgeEnd",
+                              "edgeStart": "MuiIconButton-edgeStart",
+                              "label": "MuiIconButton-label",
+                              "root": "MuiIconButton-root",
+                              "sizeSmall": "MuiIconButton-sizeSmall",
+                            }
+                          }
+                          color="inherit"
+                        >
+                          <WithStyles(ForwardRef(ButtonBase))
+                            aria-label="go back"
+                            centerRipple={true}
+                            className="MuiIconButton-root MuiIconButton-colorInherit"
+                            disabled={false}
+                            focusRipple={true}
+                          >
+                            <ForwardRef(ButtonBase)
+                              aria-label="go back"
+                              centerRipple={true}
+                              className="MuiIconButton-root MuiIconButton-colorInherit"
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "focusVisible": "Mui-focusVisible",
+                                  "root": "MuiButtonBase-root",
+                                }
+                              }
+                              disabled={false}
+                              focusRipple={true}
+                            >
+                              <button
+                                aria-label="go back"
+                                className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onDragLeave={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                tabIndex={0}
+                                type="button"
+                              >
+                                <span
+                                  className="MuiIconButton-label"
+                                >
+                                  <ForwardRef>
+                                    <WithStyles(ForwardRef(SvgIcon))>
+                                      <ForwardRef(SvgIcon)
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiSvgIcon-colorAction",
+                                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                            "colorError": "MuiSvgIcon-colorError",
+                                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                            "root": "MuiSvgIcon-root",
+                                          }
+                                        }
+                                      >
+                                        <svg
+                                          aria-hidden={true}
+                                          className="MuiSvgIcon-root"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                                          />
+                                        </svg>
+                                      </ForwardRef(SvgIcon)>
+                                    </WithStyles(ForwardRef(SvgIcon))>
+                                  </ForwardRef>
+                                </span>
+                                <WithStyles(memo)
+                                  center={true}
+                                >
+                                  <ForwardRef(TouchRipple)
+                                    center={true}
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
+                                    >
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
+                              </button>
+                            </ForwardRef(ButtonBase)>
+                          </WithStyles(ForwardRef(ButtonBase))>
+                        </ForwardRef(IconButton)>
+                      </WithStyles(ForwardRef(IconButton))>
+                      <Styled(WithStyles(ForwardRef(InputBase)))
+                        0="o"
+                        1="n"
+                        2="S"
+                        3="e"
+                        4="a"
+                        5="r"
+                        6="c"
+                        7="h"
+                        autoCapitalize="none"
+                        autoComplete="off"
+                        autoCorrect="off"
+                        inputProps={
+                          Object {
+                            "aria-label": "Search",
+                          }
+                        }
+                        inputRef={
+                          Object {
+                            "current": <input
+                              aria-label="Search"
+                              autocomplete="off"
+                              class="MuiInputBase-input MuiInputBase-inputTypeSearch"
+                              placeholder="Search"
+                              type="search"
+                              value=""
+                            />,
+                          }
+                        }
+                        onChange={[Function]}
+                        placeholder="Search"
+                        spellCheck="false"
+                        type="search"
+                        value=""
+                      >
+                        <WithStyles(ForwardRef(InputBase))
+                          0="o"
+                          1="n"
+                          2="S"
+                          3="e"
+                          4="a"
+                          5="r"
+                          6="c"
+                          7="h"
+                          autoCapitalize="none"
+                          autoComplete="off"
+                          autoCorrect="off"
+                          className="jokSNL"
+                          inputProps={
+                            Object {
+                              "aria-label": "Search",
+                            }
+                          }
+                          inputRef={
+                            Object {
+                              "current": <input
+                                aria-label="Search"
+                                autocomplete="off"
+                                class="MuiInputBase-input MuiInputBase-inputTypeSearch"
+                                placeholder="Search"
+                                type="search"
+                                value=""
+                              />,
+                            }
+                          }
+                          onChange={[Function]}
+                          placeholder="Search"
+                          spellCheck="false"
+                          type="search"
+                          value=""
+                        >
+                          <ForwardRef(InputBase)
+                            0="o"
+                            1="n"
+                            2="S"
+                            3="e"
+                            4="a"
+                            5="r"
+                            6="c"
+                            7="h"
+                            autoCapitalize="none"
+                            autoComplete="off"
+                            autoCorrect="off"
+                            className="jokSNL"
+                            classes={
+                              Object {
+                                "adornedEnd": "MuiInputBase-adornedEnd",
+                                "adornedStart": "MuiInputBase-adornedStart",
+                                "colorSecondary": "MuiInputBase-colorSecondary",
+                                "disabled": "Mui-disabled",
+                                "error": "Mui-error",
+                                "focused": "Mui-focused",
+                                "formControl": "MuiInputBase-formControl",
+                                "fullWidth": "MuiInputBase-fullWidth",
+                                "input": "MuiInputBase-input",
+                                "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                "inputMarginDense": "MuiInputBase-inputMarginDense",
+                                "inputMultiline": "MuiInputBase-inputMultiline",
+                                "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                                "marginDense": "MuiInputBase-marginDense",
+                                "multiline": "MuiInputBase-multiline",
+                                "root": "MuiInputBase-root",
+                              }
+                            }
+                            inputProps={
+                              Object {
+                                "aria-label": "Search",
+                              }
+                            }
+                            inputRef={
+                              Object {
+                                "current": <input
+                                  aria-label="Search"
+                                  autocomplete="off"
+                                  class="MuiInputBase-input MuiInputBase-inputTypeSearch"
+                                  placeholder="Search"
+                                  type="search"
+                                  value=""
+                                />,
+                              }
+                            }
+                            onChange={[Function]}
+                            placeholder="Search"
+                            spellCheck="false"
+                            type="search"
+                            value=""
+                          >
+                            <div
+                              0="o"
+                              1="n"
+                              2="S"
+                              3="e"
+                              4="a"
+                              5="r"
+                              6="c"
+                              7="h"
+                              autoCapitalize="none"
+                              autoCorrect="off"
+                              className="MuiInputBase-root jokSNL"
+                              onClick={[Function]}
+                              spellCheck="false"
+                            >
+                              <input
+                                aria-label="Search"
+                                autoComplete="off"
+                                className="MuiInputBase-input MuiInputBase-inputTypeSearch"
+                                onAnimationStart={[Function]}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                placeholder="Search"
+                                type="search"
+                                value=""
+                              />
+                            </div>
+                          </ForwardRef(InputBase)>
+                        </WithStyles(ForwardRef(InputBase))>
+                      </Styled(WithStyles(ForwardRef(InputBase)))>
+                    </form>
+                  </ForwardRef(Paper)>
+                </WithStyles(ForwardRef(Paper))>
+              </Styled(WithStyles(ForwardRef(Paper)))>
+            </ForwardRef>
+          </div>
+        </Styled(MuiBox)>
+      </Styled(Styled(MuiBox))>
+    </ForwardRef>
+  </Styled(Component)>
+</ForwardRef>
+`;

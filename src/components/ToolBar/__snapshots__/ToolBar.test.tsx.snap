@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToolBar /> should match a snapshot 1`] = `
+<ToolBar
+  title="Recipoz"
+>
+  <Styled(Component)
+    fullWidth={true}
+  >
+    <ForwardRef
+      className="cytxAi"
+      fullWidth={true}
+    >
+      <Styled(Styled(MuiBox))
+        className="cytxAi"
+        fullWidth={true}
+      >
+        <Styled(MuiBox)
+          className="iQnKkE cytxAi"
+          fullWidth={true}
+        >
+          <div
+            className="MuiBox-root MuiBox-root-1 iQnKkE cytxAi"
+            fullWidth={true}
+          >
+            <Styled(H6)>
+              <H6
+                className="Title"
+                noWrap={true}
+              >
+                <Styled(WithStyles(ForwardRef(Typography)))
+                  className="Title"
+                  noWrap={true}
+                  variant="h6"
+                >
+                  <WithStyles(ForwardRef(Typography))
+                    className="Title"
+                    noWrap={true}
+                    variant="h6"
+                  >
+                    <ForwardRef(Typography)
+                      className="Title"
+                      classes={
+                        Object {
+                          "alignCenter": "MuiTypography-alignCenter",
+                          "alignJustify": "MuiTypography-alignJustify",
+                          "alignLeft": "MuiTypography-alignLeft",
+                          "alignRight": "MuiTypography-alignRight",
+                          "body1": "MuiTypography-body1",
+                          "body2": "MuiTypography-body2",
+                          "button": "MuiTypography-button",
+                          "caption": "MuiTypography-caption",
+                          "colorError": "MuiTypography-colorError",
+                          "colorInherit": "MuiTypography-colorInherit",
+                          "colorPrimary": "MuiTypography-colorPrimary",
+                          "colorSecondary": "MuiTypography-colorSecondary",
+                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                          "displayBlock": "MuiTypography-displayBlock",
+                          "displayInline": "MuiTypography-displayInline",
+                          "gutterBottom": "MuiTypography-gutterBottom",
+                          "h1": "MuiTypography-h1",
+                          "h2": "MuiTypography-h2",
+                          "h3": "MuiTypography-h3",
+                          "h4": "MuiTypography-h4",
+                          "h5": "MuiTypography-h5",
+                          "h6": "MuiTypography-h6",
+                          "noWrap": "MuiTypography-noWrap",
+                          "overline": "MuiTypography-overline",
+                          "paragraph": "MuiTypography-paragraph",
+                          "root": "MuiTypography-root",
+                          "srOnly": "MuiTypography-srOnly",
+                          "subtitle1": "MuiTypography-subtitle1",
+                          "subtitle2": "MuiTypography-subtitle2",
+                        }
+                      }
+                      noWrap={true}
+                      variant="h6"
+                    >
+                      <h6
+                        className="MuiTypography-root Title MuiTypography-h6 MuiTypography-noWrap"
+                      >
+                        Recipoz
+                      </h6>
+                    </ForwardRef(Typography)>
+                  </WithStyles(ForwardRef(Typography))>
+                </Styled(WithStyles(ForwardRef(Typography)))>
+              </H6>
+            </Styled(H6)>
+          </div>
+        </Styled(MuiBox)>
+      </Styled(Styled(MuiBox))>
+    </ForwardRef>
+  </Styled(Component)>
+</ToolBar>
+`;

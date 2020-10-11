@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuItem /> should match a snapshot 1`] = `
+<MenuItem
+  text="text"
+>
+  <Styled(WithStyles(ForwardRef(MenuItem)))
+    button={false}
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      button={false}
+      className="KpA-dS"
+    >
+      <ForwardRef(MenuItem)
+        button={false}
+        className="KpA-dS"
+        classes={
+          Object {
+            "dense": "MuiMenuItem-dense",
+            "gutters": "MuiMenuItem-gutters",
+            "root": "MuiMenuItem-root",
+            "selected": "Mui-selected",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(ListItem))
+          button={false}
+          className="MuiMenuItem-root KpA-dS MuiMenuItem-gutters"
+          classes={
+            Object {
+              "dense": "MuiMenuItem-dense",
+            }
+          }
+          component="li"
+          disableGutters={false}
+          role="menuitem"
+          tabIndex={-1}
+        >
+          <ForwardRef(ListItem)
+            button={false}
+            className="MuiMenuItem-root KpA-dS MuiMenuItem-gutters"
+            classes={
+              Object {
+                "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                "button": "MuiListItem-button",
+                "container": "MuiListItem-container",
+                "dense": "MuiListItem-dense MuiMenuItem-dense",
+                "disabled": "Mui-disabled",
+                "divider": "MuiListItem-divider",
+                "focusVisible": "Mui-focusVisible",
+                "gutters": "MuiListItem-gutters",
+                "root": "MuiListItem-root",
+                "secondaryAction": "MuiListItem-secondaryAction",
+                "selected": "Mui-selected",
+              }
+            }
+            component="li"
+            disableGutters={false}
+            role="menuitem"
+            tabIndex={-1}
+          >
+            <li
+              className="MuiListItem-root MuiMenuItem-root KpA-dS MuiMenuItem-gutters MuiListItem-gutters"
+              disabled={false}
+              role="menuitem"
+              tabIndex={-1}
+            >
+              <Text
+                key=".1"
+                variant="inherit"
+              >
+                <Styled(WithStyles(ForwardRef(Typography)))
+                  variant="inherit"
+                >
+                  <WithStyles(ForwardRef(Typography))
+                    className=""
+                    variant="inherit"
+                  >
+                    <ForwardRef(Typography)
+                      className=""
+                      classes={
+                        Object {
+                          "alignCenter": "MuiTypography-alignCenter",
+                          "alignJustify": "MuiTypography-alignJustify",
+                          "alignLeft": "MuiTypography-alignLeft",
+                          "alignRight": "MuiTypography-alignRight",
+                          "body1": "MuiTypography-body1",
+                          "body2": "MuiTypography-body2",
+                          "button": "MuiTypography-button",
+                          "caption": "MuiTypography-caption",
+                          "colorError": "MuiTypography-colorError",
+                          "colorInherit": "MuiTypography-colorInherit",
+                          "colorPrimary": "MuiTypography-colorPrimary",
+                          "colorSecondary": "MuiTypography-colorSecondary",
+                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                          "displayBlock": "MuiTypography-displayBlock",
+                          "displayInline": "MuiTypography-displayInline",
+                          "gutterBottom": "MuiTypography-gutterBottom",
+                          "h1": "MuiTypography-h1",
+                          "h2": "MuiTypography-h2",
+                          "h3": "MuiTypography-h3",
+                          "h4": "MuiTypography-h4",
+                          "h5": "MuiTypography-h5",
+                          "h6": "MuiTypography-h6",
+                          "noWrap": "MuiTypography-noWrap",
+                          "overline": "MuiTypography-overline",
+                          "paragraph": "MuiTypography-paragraph",
+                          "root": "MuiTypography-root",
+                          "srOnly": "MuiTypography-srOnly",
+                          "subtitle1": "MuiTypography-subtitle1",
+                          "subtitle2": "MuiTypography-subtitle2",
+                        }
+                      }
+                      variant="inherit"
+                    >
+                      <span
+                        className="MuiTypography-root "
+                      >
+                        text
+                      </span>
+                    </ForwardRef(Typography)>
+                  </WithStyles(ForwardRef(Typography))>
+                </Styled(WithStyles(ForwardRef(Typography)))>
+              </Text>
+            </li>
+          </ForwardRef(ListItem)>
+        </WithStyles(ForwardRef(ListItem))>
+      </ForwardRef(MenuItem)>
+    </WithStyles(ForwardRef(MenuItem))>
+  </Styled(WithStyles(ForwardRef(MenuItem)))>
+</MenuItem>
+`;

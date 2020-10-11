@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> should match a snapshot 1`] = `
+<Container>
+  <Styled(styled.div)>
+    <div
+      className="fWAStD"
+      data-name="container"
+    >
+      <span>
+        test
+      </span>
+    </div>
+  </Styled(styled.div)>
+</Container>
+`;

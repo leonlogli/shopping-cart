@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> <H1 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h1. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;
+
+exports[`<Heading /> <H2 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h2. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;
+
+exports[`<Heading /> <H3 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h3. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;
+
+exports[`<Heading /> <H4 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h4. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;
+
+exports[`<Heading /> <H5 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h5. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;
+
+exports[`<Heading /> <H6 /> should match a snapshot 1`] = `
+<H1>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    variant="h1"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className=""
+      variant="h1"
+    >
+      <ForwardRef(Typography)
+        className=""
+        classes={
+          Object {
+            "alignCenter": "MuiTypography-alignCenter",
+            "alignJustify": "MuiTypography-alignJustify",
+            "alignLeft": "MuiTypography-alignLeft",
+            "alignRight": "MuiTypography-alignRight",
+            "body1": "MuiTypography-body1",
+            "body2": "MuiTypography-body2",
+            "button": "MuiTypography-button",
+            "caption": "MuiTypography-caption",
+            "colorError": "MuiTypography-colorError",
+            "colorInherit": "MuiTypography-colorInherit",
+            "colorPrimary": "MuiTypography-colorPrimary",
+            "colorSecondary": "MuiTypography-colorSecondary",
+            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+            "displayBlock": "MuiTypography-displayBlock",
+            "displayInline": "MuiTypography-displayInline",
+            "gutterBottom": "MuiTypography-gutterBottom",
+            "h1": "MuiTypography-h1",
+            "h2": "MuiTypography-h2",
+            "h3": "MuiTypography-h3",
+            "h4": "MuiTypography-h4",
+            "h5": "MuiTypography-h5",
+            "h6": "MuiTypography-h6",
+            "noWrap": "MuiTypography-noWrap",
+            "overline": "MuiTypography-overline",
+            "paragraph": "MuiTypography-paragraph",
+            "root": "MuiTypography-root",
+            "srOnly": "MuiTypography-srOnly",
+            "subtitle1": "MuiTypography-subtitle1",
+            "subtitle2": "MuiTypography-subtitle2",
+          }
+        }
+        variant="h1"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h1"
+        >
+          h6. Heading
+        </h1>
+      </ForwardRef(Typography)>
+    </WithStyles(ForwardRef(Typography))>
+  </Styled(WithStyles(ForwardRef(Typography)))>
+</H1>
+`;

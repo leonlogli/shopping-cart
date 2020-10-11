@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomNavigation /> should match a snapshot 1`] = `
+<BottomNavigation
+  links={
+    Array [
+      Object {
+        "icon": <Memo(RestoreIcon) />,
+        "label": "Restaurants",
+        "value": "/restaurants",
+      },
+      Object {
+        "icon": <Memo(FavoriteIcon) />,
+        "label": "Menu",
+        "value": "/menu",
+      },
+    ]
+  }
+>
+  <Styled(WithStyles(ForwardRef(BottomNavigation)))
+    onChange={[Function]}
+  >
+    <WithStyles(ForwardRef(BottomNavigation))
+      className="jTgLGz"
+      onChange={[Function]}
+    >
+      <ForwardRef(BottomNavigation)
+        className="jTgLGz"
+        classes={
+          Object {
+            "root": "MuiBottomNavigation-root",
+          }
+        }
+        onChange={[Function]}
+      >
+        <div
+          className="MuiBottomNavigation-root jTgLGz"
+        >
+          <WithStyles(ForwardRef(BottomNavigationAction))
+            icon={<Memo(RestoreIcon) />}
+            key=".$/restaurants"
+            label="Restaurants"
+            onChange={[Function]}
+            selected={false}
+            showLabel={false}
+            value="/restaurants"
+          >
+            <ForwardRef(BottomNavigationAction)
+              classes={
+                Object {
+                  "iconOnly": "MuiBottomNavigationAction-iconOnly",
+                  "label": "MuiBottomNavigationAction-label",
+                  "root": "MuiBottomNavigationAction-root",
+                  "selected": "Mui-selected",
+                  "wrapper": "MuiBottomNavigationAction-wrapper",
+                }
+              }
+              icon={<Memo(RestoreIcon) />}
+              label="Restaurants"
+              onChange={[Function]}
+              selected={false}
+              showLabel={false}
+              value="/restaurants"
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                focusRipple={true}
+                onClick={[Function]}
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  focusRipple={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiBottomNavigationAction-wrapper"
+                    >
+                      <ForwardRef>
+                        <WithStyles(ForwardRef(SvgIcon))>
+                          <ForwardRef(SvgIcon)
+                            classes={
+                              Object {
+                                "colorAction": "MuiSvgIcon-colorAction",
+                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                "colorError": "MuiSvgIcon-colorError",
+                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                "root": "MuiSvgIcon-root",
+                              }
+                            }
+                          >
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"
+                              />
+                            </svg>
+                          </ForwardRef(SvgIcon)>
+                        </WithStyles(ForwardRef(SvgIcon))>
+                      </ForwardRef>
+                      <span
+                        className="MuiBottomNavigationAction-label MuiBottomNavigationAction-iconOnly"
+                      >
+                        Restaurants
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(BottomNavigationAction)>
+          </WithStyles(ForwardRef(BottomNavigationAction))>
+          <WithStyles(ForwardRef(BottomNavigationAction))
+            icon={<Memo(FavoriteIcon) />}
+            key=".$/menu"
+            label="Menu"
+            onChange={[Function]}
+            selected={false}
+            showLabel={false}
+            value="/menu"
+          >
+            <ForwardRef(BottomNavigationAction)
+              classes={
+                Object {
+                  "iconOnly": "MuiBottomNavigationAction-iconOnly",
+                  "label": "MuiBottomNavigationAction-label",
+                  "root": "MuiBottomNavigationAction-root",
+                  "selected": "Mui-selected",
+                  "wrapper": "MuiBottomNavigationAction-wrapper",
+                }
+              }
+              icon={<Memo(FavoriteIcon) />}
+              label="Menu"
+              onChange={[Function]}
+              selected={false}
+              showLabel={false}
+              value="/menu"
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                focusRipple={true}
+                onClick={[Function]}
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  focusRipple={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiBottomNavigationAction-wrapper"
+                    >
+                      <ForwardRef>
+                        <WithStyles(ForwardRef(SvgIcon))>
+                          <ForwardRef(SvgIcon)
+                            classes={
+                              Object {
+                                "colorAction": "MuiSvgIcon-colorAction",
+                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                "colorError": "MuiSvgIcon-colorError",
+                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                "root": "MuiSvgIcon-root",
+                              }
+                            }
+                          >
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                              />
+                            </svg>
+                          </ForwardRef(SvgIcon)>
+                        </WithStyles(ForwardRef(SvgIcon))>
+                      </ForwardRef>
+                      <span
+                        className="MuiBottomNavigationAction-label MuiBottomNavigationAction-iconOnly"
+                      >
+                        Menu
+                      </span>
+                    </span>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </button>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(BottomNavigationAction)>
+          </WithStyles(ForwardRef(BottomNavigationAction))>
+        </div>
+      </ForwardRef(BottomNavigation)>
+    </WithStyles(ForwardRef(BottomNavigation))>
+  </Styled(WithStyles(ForwardRef(BottomNavigation)))>
+</BottomNavigation>
+`;

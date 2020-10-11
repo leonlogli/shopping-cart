@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should match a snapshot 1`] = `
+<ForwardRef
+  href="/about"
+>
+  <Link
+    href="/about"
+    passHref={true}
+  >
+    <Styled(WithStyles(ForwardRef(Link)))
+      href="/about"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <WithStyles(ForwardRef(Link))
+        className="jxeIVE"
+        href="/about"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <ForwardRef(Link)
+          className="jxeIVE"
+          classes={
+            Object {
+              "button": "MuiLink-button",
+              "focusVisible": "Mui-focusVisible",
+              "root": "MuiLink-root",
+              "underlineAlways": "MuiLink-underlineAlways",
+              "underlineHover": "MuiLink-underlineHover",
+              "underlineNone": "MuiLink-underlineNone",
+            }
+          }
+          href="/about"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="MuiLink-root MuiLink-underlineHover jxeIVE"
+            color="primary"
+            component="a"
+            href="/about"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            variant="inherit"
+          >
+            <ForwardRef(Typography)
+              className="MuiLink-root MuiLink-underlineHover jxeIVE"
+              classes={
+                Object {
+                  "alignCenter": "MuiTypography-alignCenter",
+                  "alignJustify": "MuiTypography-alignJustify",
+                  "alignLeft": "MuiTypography-alignLeft",
+                  "alignRight": "MuiTypography-alignRight",
+                  "body1": "MuiTypography-body1",
+                  "body2": "MuiTypography-body2",
+                  "button": "MuiTypography-button",
+                  "caption": "MuiTypography-caption",
+                  "colorError": "MuiTypography-colorError",
+                  "colorInherit": "MuiTypography-colorInherit",
+                  "colorPrimary": "MuiTypography-colorPrimary",
+                  "colorSecondary": "MuiTypography-colorSecondary",
+                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                  "displayBlock": "MuiTypography-displayBlock",
+                  "displayInline": "MuiTypography-displayInline",
+                  "gutterBottom": "MuiTypography-gutterBottom",
+                  "h1": "MuiTypography-h1",
+                  "h2": "MuiTypography-h2",
+                  "h3": "MuiTypography-h3",
+                  "h4": "MuiTypography-h4",
+                  "h5": "MuiTypography-h5",
+                  "h6": "MuiTypography-h6",
+                  "noWrap": "MuiTypography-noWrap",
+                  "overline": "MuiTypography-overline",
+                  "paragraph": "MuiTypography-paragraph",
+                  "root": "MuiTypography-root",
+                  "srOnly": "MuiTypography-srOnly",
+                  "subtitle1": "MuiTypography-subtitle1",
+                  "subtitle2": "MuiTypography-subtitle2",
+                }
+              }
+              color="primary"
+              component="a"
+              href="/about"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              variant="inherit"
+            >
+              <a
+                className="MuiTypography-root MuiLink-root MuiLink-underlineHover jxeIVE MuiTypography-colorPrimary"
+                href="/about"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+              >
+                Link
+              </a>
+            </ForwardRef(Typography)>
+          </WithStyles(ForwardRef(Typography))>
+        </ForwardRef(Link)>
+      </WithStyles(ForwardRef(Link))>
+    </Styled(WithStyles(ForwardRef(Link)))>
+  </Link>
+</ForwardRef>
+`;

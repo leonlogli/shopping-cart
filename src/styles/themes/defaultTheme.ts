@@ -7,7 +7,10 @@ export default createTheme({
   name: 'Default',
   palette: {
     primary: {
-      main: '#1c95a8',
+      main: '#ff5722',
+    },
+    secondary: {
+      main: '#c8291e',
     },
   },
 })

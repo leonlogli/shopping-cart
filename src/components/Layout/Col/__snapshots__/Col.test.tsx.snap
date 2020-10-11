@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col /> should match a snapshot 1`] = `
+<Col>
+  <Styled(styled.div)>
+    <div
+      className="cyFIJw"
+      data-name=""
+    >
+      <span>
+        test
+      </span>
+    </div>
+  </Styled(styled.div)>
+</Col>
+`;

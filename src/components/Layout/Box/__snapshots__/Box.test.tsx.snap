@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> should match a snapshot 1`] = `
+<ForwardRef>
+  <Styled(Styled(MuiBox))>
+    <Styled(MuiBox)
+      className="njkSP"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-1 njkSP"
+      >
+        text
+      </div>
+    </Styled(MuiBox)>
+  </Styled(Styled(MuiBox))>
+</ForwardRef>
+`;
