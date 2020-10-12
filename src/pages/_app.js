@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import nextCookie from 'next-cookies'
 import Router from 'next/router'
 import NProgress from 'nprogress'
 import { Provider } from 'react-redux'
@@ -14,8 +15,8 @@ Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
 Router.events.on('routeChangeError', () => NProgress.done())
 
-export default function UiRestoApp(props) {
-  const { Component, pageProps } = props
+export default function ShoppingCartApp(props) {
+  const { Component, pageProps, initialTheme } = props
 
   useEffect(() => {
     // Remove the server-side injected CSS.
@@ -29,7 +30,7 @@ export default function UiRestoApp(props) {
   return (
     <Provider store={store}>
       <noscript>You need to enable JavaScript to run this app</noscript>
-      <App>
+      <App initialTheme={initialTheme}>
         <PersistGate
           loading={<Component {...pageProps} />}
           persistor={persistor}
@@ -39,4 +40,15 @@ export default function UiRestoApp(props) {
       </App>
     </Provider>
   )
+}
+
+ShoppingCartApp.getInitialProps = async ({ Component, ctx }) => {
+  const pageProps = {}
+  const initialTheme = nextCookie(ctx).theme
+
+  if (Component.getInitialProps) {
+    Object.assign(pageProps, await Component.getInitialProps(ctx))
+  }
+
+  return { pageProps, initialTheme }
 }

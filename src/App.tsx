@@ -1,29 +1,19 @@
 import React from 'react'
-import {
-  StylesProvider,
-  ThemeProvider as MuiThemeProvider,
-} from '@material-ui/core/styles'
-import { ThemeProvider, ThemeProviderProps } from 'styled-components'
-import CssBaseline from '@material-ui/core/CssBaseline'
+import { StylesProvider } from '@material-ui/core/styles'
+
+import { ThemeProvider, ThemeProviderProps } from './context'
 
 import { Meta } from './layouts'
 
-import { defaultTheme, GlobalStyle } from './styles'
+export type AppProviderProps = ThemeProviderProps
 
-export type AppProviderProps = ThemeProviderProps<any>
-
-const App = ({ children }: AppProviderProps) => {
+const App = ({ children, initialTheme }: AppProviderProps) => {
   return (
     <StylesProvider injectFirst>
-      <MuiThemeProvider theme={defaultTheme}>
-        <ThemeProvider theme={defaultTheme}>
-          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-          <CssBaseline />
-          <GlobalStyle />
-          <Meta />
-          {children}
-        </ThemeProvider>
-      </MuiThemeProvider>
+      <ThemeProvider initialTheme={initialTheme}>
+        <Meta />
+        {children}
+      </ThemeProvider>
     </StylesProvider>
   )
 }

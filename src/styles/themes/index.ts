@@ -1,11 +1,17 @@
+import { Theme } from './createTheme'
 import appDefaultTheme from './defaultTheme'
+import darkTheme from './darkTheme'
 
-export * from './createTheme'
+/**
+ * App themes
+ */
+const themes: ReadonlyArray<Theme> = [appDefaultTheme, darkTheme] as const
 
 /**
  * App default theme.
  */
 const defaultTheme = appDefaultTheme
 
-export { defaultTheme }
-export default defaultTheme
+export { defaultTheme, themes }
+export default themes
+export * from './createTheme'

@@ -3,6 +3,7 @@ import Badge from '@material-ui/core/Badge'
 import IconButton from '@material-ui/core/IconButton'
 import Brightness4Icon from '@material-ui/icons/Brightness4'
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined'
+import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh'
 import Paper from '@material-ui/core/Paper'
 import { AppBarProps } from '@material-ui/core/AppBar'
 import Hidden from '@material-ui/core/Hidden'
@@ -11,11 +12,20 @@ import { NavToolBar, NavBarRoot, SideDrawer } from './NavBar.style'
 
 import { useModal } from '../../../hooks'
 import NavBarLeftMenu from '../NavBarLeftMenu'
+import { useTheme } from '../../../context'
 
 export type NavBarProps = AppBarProps
 
 const NavBar = (props: NavBarProps) => {
   const { handleClose, handleOpen, open } = useModal()
+  const { theme, setTheme } = useTheme()
+  const isDarkMode = theme.name === 'Dark'
+
+  const handleThemeChange = () => {
+    const newTheme = !isDarkMode ? 'Dark' : 'Default'
+
+    setTheme(newTheme)
+  }
 
   return (
     <NavBarRoot elevation={0} position="static" {...props}>
@@ -35,8 +45,12 @@ const NavBar = (props: NavBarProps) => {
                 </Badge>
               </IconButton>
             </Hidden>
-            <IconButton aria-label="change theme" color="inherit">
-              <Brightness4Icon />
+            <IconButton
+              aria-label="change theme"
+              color="inherit"
+              onClick={handleThemeChange}
+            >
+              {isDarkMode ? <BrightnessHighIcon /> : <Brightness4Icon />}
             </IconButton>
           </>
         }
