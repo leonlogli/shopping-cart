@@ -5,10 +5,10 @@ import ToolBar from '.'
 import { mountWithTheme } from '../../utils'
 
 describe('<ToolBar />', () => {
-  const wrapper = mountWithTheme(<ToolBar title="Recipoz" />)
+  const wrapper = mountWithTheme(<ToolBar title="Shopping Cart" />)
 
   it('should render children', () => {
-    expect(wrapper.find('h6').props().children).toBe('Recipoz')
+    expect(wrapper.find('h6').props().children).toBe('Shopping Cart')
   })
 
   it('should match a snapshot', () => {

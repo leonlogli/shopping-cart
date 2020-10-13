@@ -61,8 +61,8 @@ const CounterDialog = (props: CounterDialogProps) => {
     <MenuItemDialogRoot
       {...other}
       title={name}
-      okText="Ajouter"
-      cancelText="Annuler"
+      okText="Add"
+      cancelText="Cancel"
       onOk={addToShoppingCart}
       onClose={handleDialogClose}
       fullscreenTransition={SlideTransition}
@@ -82,7 +82,9 @@ const CounterDialog = (props: CounterDialogProps) => {
               <AddIcon onClick={handleIncrement} />
             </IconButton>
           </CountButtonBox>
-          <Text className="price">{toUSD(quantity * price)}</Text>
+          <Text className="price" color="textSecondary">
+            {toUSD(quantity * price)}
+          </Text>
         </InnerBox>
       </ContentBox>
     </MenuItemDialogRoot>

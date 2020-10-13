@@ -8,10 +8,10 @@ export default {
   parameters: { options: { selectedPanel: 'storybook/actions/panel' } },
 }
 
-export const Default = () => <ToolBar title="Recipoz" />
+export const Default = () => <ToolBar title="Shopping Cart" />
 
 export const withLeftIconAction = () => (
-  <ToolBar onLeftIconClick={action('click')} title="Recipoz" />
+  <ToolBar onLeftIconClick={action('click')} title="Shopping Cart" />
 )
 
 export const withChildAndRight = () => (
@@ -20,4 +20,6 @@ export const withChildAndRight = () => (
   </ToolBar>
 )
 
-export const withLeftIcon = () => <ToolBar leftIcon="back" title="Recipoz" />
+export const withLeftIcon = () => (
+  <ToolBar leftIcon="back" title="Shopping Cart" />
+)

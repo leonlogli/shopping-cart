@@ -2,7 +2,7 @@
 
 exports[`<ToolBar /> should match a snapshot 1`] = `
 <ToolBar
-  title="Recipoz"
+  title="Shopping Cart"
 >
   <Styled(Component)
     fullWidth={true}
@@ -80,7 +80,7 @@ exports[`<ToolBar /> should match a snapshot 1`] = `
                       <h6
                         className="MuiTypography-root Title MuiTypography-h6 MuiTypography-noWrap"
                       >
-                        Recipoz
+                        Shopping Cart
                       </h6>
                     </ForwardRef(Typography)>
                   </WithStyles(ForwardRef(Typography))>

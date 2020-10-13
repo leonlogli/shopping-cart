@@ -68,7 +68,7 @@ export const Default = () => (
       color="primary"
       size="large"
     >
-      Ajouter au panier
+      Add to basket
     </SubmitButton>
   </div>
 )

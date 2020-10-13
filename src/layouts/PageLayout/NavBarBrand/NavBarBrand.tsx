@@ -6,7 +6,7 @@ import { Link, BoxProps, Logo, LogoProps } from '../../../components'
 export type NavBarBrandProps = BoxProps & {
   /**
    * Nav brand name
-   * @default Recipoz
+   * @default 'Shopping Cart'
    */
   name?: string
   logoProps?: LogoProps

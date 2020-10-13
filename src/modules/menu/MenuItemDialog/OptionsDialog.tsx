@@ -51,9 +51,9 @@ const OptionsDialog = (props: OptionsDialogProps) => {
   return (
     <MenuItemDialogRoot
       {...other}
-      title={`Personnaliser votre ${name}`}
-      okText="Ajouter"
-      cancelText="Annuler"
+      title={`Customize your ${name}`}
+      okText="Add"
+      cancelText="Cancel"
       okButtonProps={{ type: 'submit', form: 'menuitem-options-form' }}
       onClose={onClose}
       fullscreenTransition={SlideTransition}
@@ -66,7 +66,9 @@ const OptionsDialog = (props: OptionsDialogProps) => {
             <H6>{name}</H6>
           </Hidden>
           {description && <Text>{description}</Text>}
-          <Text className="price">{toUSD(price)}</Text>
+          <Text className="price" color="textSecondary">
+            {toUSD(price)}
+          </Text>
         </Box>
         {other.open && (
           <MenuItemOptionsForm

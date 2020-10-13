@@ -66,7 +66,6 @@ const InnerBox = styled(Box)`
 
 const MenuItemDialogRoot = styled(ResponsiveDialog)`
   .price {
-    color: #000000a8;
     font-weight: 500;
   }
 
