@@ -37,12 +37,6 @@ This project uses a number of open source projects to work properly:
 - [Prettier](https://github.com/prettier/prettier), [Eslint](https://github.com/eslint/eslint) - code formating and linting tool
 - [Jest](https://github.com/facebook/jest), [Enzyme](https://github.com/enzymejs/enzyme) - Testing
 
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/) v12 or higher + [Yarn](https://yarnpkg.com/) package manager
-- [MongoDB](https://www.mongodb.com/) (can be local or remote instance)
-- Optionally [VS Code](https://code.visualstudio.com/) editor with [Apollo GraphQL](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) plug-ins.
-
 ## Getting Started
 
 Install it and run:
@@ -60,16 +54,10 @@ yarn start
 
 ## Testing
 
-Recipoz server uses Mocha and Chai for testing .To enable integration tests, a testing config file is included in tests directory, where various options and helper methods are defined to suit the needs of the project.
-
 ```bash
-# run all tests
+# run tests
 yarn test
-# run unit tests
-yarn test:unit
-# run integration tests
-yarn test:integration
-# Run the test watcher
+# Run tests watcher
 yarn test:watch
 # run test coverage
 yarn test:coverage
