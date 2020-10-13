@@ -1,0 +1,1838 @@
+{
+  "3": [
+    {
+      "id": 2,
+      "name": "Breakfast",
+      "items": [
+        { "id": 1, "name": "Separated café au lait", "price": 18 },
+        { "id": 2, "name": "Coffee cream", "price": 15 },
+        { "id": 3, "name": "Italian style cappuccino", "price": 18 },
+        { "id": 4, "name": "Hot chocolate", "price": 22 },
+        { "id": 5, "name": "Mocaccino", "price": 22 },
+        { "id": 6, "name": "Nespresso + mireral water", "price": 18 },
+        { "id": 7, "name": "Ness Ness + mineral water", "price": 18 },
+        { "id": 8, "name": "Lavazza + mineral water", "price": 18 },
+        { "id": 9, "name": "Verbena green tea", "price": 18 },
+        { "id": 10, "name": "Green tea with mint", "price": 15 },
+        { "id": 11, "name": "Lipron black tea", "price": 18 },
+        { "id": 12, "name": "Earl Gray black tea", "price": 22 },
+        { "id": 13, "name": "Darjelinge black tea", "price": 22 },
+        { "id": 14, "name": "Relaxing Jasmine tea", "price": 18 },
+        { "id": 15, "name": "Relaxing Chamomile tea", "price": 18 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lunch",
+      "items": [
+        {
+          "id": 16,
+          "name": "Minced Meat Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Viande-Hachée.png",
+          "price": 30,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 1 },
+                { "name": "7 up", "id": 2 },
+                { "name": "Mirinda Citron", "id": 3 },
+                { "name": "Water bottle", "id": 4 },
+                { "name": "Orangina", "id": 5 },
+                { "name": "Lipton", "id": 6 }
+              ],
+              "id": 1
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 7 },
+                { "name": "Biggy", "id": 8 },
+                { "name": "Barbecue", "id": 9 },
+                { "name": "White", "id": 10 },
+                { "name": "Fromagère", "id": 11 },
+                { "name": "Samurai", "id": 12 },
+                { "name": "Andalouse", "id": 13 }
+              ],
+              "id": 2
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 14 },
+                { "name": "Sauce supplement", "price": 1, "id": 15 },
+                { "name": "Fries", "price": 1, "id": 16 },
+                { "name": "Cheese Supplement", "price": 3, "id": 17 }
+              ],
+              "id": 3
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Tacos Steak House",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/tacos-steak-house.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 18 },
+                { "name": "7 up", "id": 19 },
+                { "name": "Mirinda Citron", "id": 20 },
+                { "name": "Water bottle", "id": 21 },
+                { "name": "Orangina", "id": 22 },
+                { "name": "Lipton", "id": 23 }
+              ],
+              "id": 4
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 24 },
+                { "name": "Biggy", "id": 25 },
+                { "name": "Barbecue", "id": 26 },
+                { "name": "White", "id": 27 },
+                { "name": "Fromagère", "id": 28 },
+                { "name": "Samurai", "id": 29 },
+                { "name": "Andalouse", "id": 30 }
+              ],
+              "id": 5
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 31 },
+                { "name": "Sauce supplement", "price": 1, "id": 32 },
+                { "name": "Fries", "price": 1, "id": 33 },
+                { "name": "Cheese Supplement", "price": 3, "id": 34 }
+              ],
+              "id": 6
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Chicken Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Poulet.png",
+          "price": 28,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 35 },
+                { "name": "7 up", "id": 36 },
+                { "name": "Mirinda Citron", "id": 37 },
+                { "name": "Water bottle", "id": 38 },
+                { "name": "Orangina", "id": 39 },
+                { "name": "Lipton", "id": 40 }
+              ],
+              "id": 7
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 41 },
+                { "name": "Biggy", "id": 42 },
+                { "name": "Barbecue", "id": 43 },
+                { "name": "White", "id": 44 },
+                { "name": "Fromagère", "id": 45 },
+                { "name": "Samurai", "id": 46 },
+                { "name": "Andalouse", "id": 47 }
+              ],
+              "id": 8
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 48 },
+                { "name": "Sauce supplement", "price": 1, "id": 49 },
+                { "name": "Fries", "price": 1, "id": 50 },
+                { "name": "Cheese Supplement", "price": 3, "id": 51 }
+              ],
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Diner",
+      "items": [
+        {
+          "id": 19,
+          "name": "Tacos Minced meat",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Viande-Hachée.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 52 },
+                { "name": "7 up", "id": 53 },
+                { "name": "Mirinda Citron", "id": 54 },
+                { "name": "Water bottle", "id": 55 },
+                { "name": "Orangina", "id": 56 },
+                { "name": "Lipton", "id": 57 }
+              ],
+              "id": 10
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 58 },
+                { "name": "Biggy", "id": 59 },
+                { "name": "Barbecue", "id": 60 },
+                { "name": "White", "id": 61 },
+                { "name": "Fromagère", "id": 62 },
+                { "name": "Samurai", "id": 63 },
+                { "name": "Andalouse", "id": 64 }
+              ],
+              "id": 11
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 65 },
+                { "name": "Sauce supplement", "price": 1, "id": 66 },
+                { "name": "Fries", "price": 1, "id": 67 },
+                { "name": "Cheese Supplement", "price": 3, "id": 68 }
+              ],
+              "id": 12
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Tacos Nuggets",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Nuggets.png",
+          "price": 32,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 69 },
+                { "name": "7 up", "id": 70 },
+                { "name": "Mirinda Citron", "id": 71 },
+                { "name": "Water bottle", "id": 72 },
+                { "name": "Orangina", "id": 73 },
+                { "name": "Lipton", "id": 74 }
+              ],
+              "id": 13
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 75 },
+                { "name": "Biggy", "id": 76 },
+                { "name": "Barbecue", "id": 77 },
+                { "name": "White", "id": 78 },
+                { "name": "Fromagère", "id": 79 },
+                { "name": "Samurai", "id": 80 },
+                { "name": "Andalouse", "id": 81 }
+              ],
+              "id": 14
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 82 },
+                { "name": "Sauce supplement", "price": 1, "id": 83 },
+                { "name": "Fries", "price": 1, "id": 84 },
+                { "name": "Cheese Supplement", "price": 3, "id": 85 }
+              ],
+              "id": 15
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Tacos Cordon Bleu",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Cordon-Bleu.png",
+          "price": 36,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 86 },
+                { "name": "7 up", "id": 87 },
+                { "name": "Mirinda Citron", "id": 88 },
+                { "name": "Water bottle", "id": 89 },
+                { "name": "Orangina", "id": 90 },
+                { "name": "Lipton", "id": 91 }
+              ],
+              "id": 16
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 92 },
+                { "name": "Biggy", "id": 93 },
+                { "name": "Barbecue", "id": 94 },
+                { "name": "White", "id": 95 },
+                { "name": "Fromagère", "id": 96 },
+                { "name": "Samurai", "id": 97 },
+                { "name": "Andalouse", "id": 98 }
+              ],
+              "id": 17
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 99 },
+                { "name": "Sauce supplement", "price": 1, "id": 100 },
+                { "name": "Fries", "price": 1, "id": 101 },
+                { "name": "Cheese Supplement", "price": 3, "id": 102 }
+              ],
+              "id": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": 5,
+      "name": "Tacos",
+      "items": [
+        {
+          "id": 22,
+          "name": "Minced Meat Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Viande-Hachée.png",
+          "price": 30,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 103 },
+                { "name": "7 up", "id": 104 },
+                { "name": "Mirinda Citron", "id": 105 },
+                { "name": "Water bottle", "id": 106 },
+                { "name": "Orangina", "id": 107 },
+                { "name": "Lipton", "id": 108 }
+              ],
+              "id": 19
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 109 },
+                { "name": "Biggy", "id": 110 },
+                { "name": "Barbecue", "id": 111 },
+                { "name": "White", "id": 112 },
+                { "name": "Fromagère", "id": 113 },
+                { "name": "Samurai", "id": 114 },
+                { "name": "Andalouse", "id": 115 }
+              ],
+              "id": 20
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 116 },
+                { "name": "Sauce supplement", "price": 1, "id": 117 },
+                { "name": "Fries", "price": 1, "id": 118 },
+                { "name": "Cheese Supplement", "price": 3, "id": 119 }
+              ],
+              "id": 21
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Tacos Steak House",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/tacos-steak-house.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 120 },
+                { "name": "7 up", "id": 121 },
+                { "name": "Mirinda Citron", "id": 122 },
+                { "name": "Water bottle", "id": 123 },
+                { "name": "Orangina", "id": 124 },
+                { "name": "Lipton", "id": 125 }
+              ],
+              "id": 22
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 126 },
+                { "name": "Biggy", "id": 127 },
+                { "name": "Barbecue", "id": 128 },
+                { "name": "White", "id": 129 },
+                { "name": "Fromagère", "id": 130 },
+                { "name": "Samurai", "id": 131 },
+                { "name": "Andalouse", "id": 132 }
+              ],
+              "id": 23
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 133 },
+                { "name": "Sauce supplement", "price": 1, "id": 134 },
+                { "name": "Fries", "price": 1, "id": 135 },
+                { "name": "Cheese Supplement", "price": 3, "id": 136 }
+              ],
+              "id": 24
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Chicken Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Poulet.png",
+          "price": 28,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 137 },
+                { "name": "7 up", "id": 138 },
+                { "name": "Mirinda Citron", "id": 139 },
+                { "name": "Water bottle", "id": 140 },
+                { "name": "Orangina", "id": 141 },
+                { "name": "Lipton", "id": 142 }
+              ],
+              "id": 25
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 143 },
+                { "name": "Biggy", "id": 144 },
+                { "name": "Barbecue", "id": 145 },
+                { "name": "White", "id": 146 },
+                { "name": "Fromagère", "id": 147 },
+                { "name": "Samurai", "id": 148 },
+                { "name": "Andalouse", "id": 149 }
+              ],
+              "id": 26
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 150 },
+                { "name": "Sauce supplement", "price": 1, "id": 151 },
+                { "name": "Fries", "price": 1, "id": 152 },
+                { "name": "Cheese Supplement", "price": 3, "id": 153 }
+              ],
+              "id": 27
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Tacos Nuggets",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Nuggets.png",
+          "price": 32,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 154 },
+                { "name": "7 up", "id": 155 },
+                { "name": "Mirinda Citron", "id": 156 },
+                { "name": "Water bottle", "id": 157 },
+                { "name": "Orangina", "id": 158 },
+                { "name": "Lipton", "id": 159 }
+              ],
+              "id": 28
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 160 },
+                { "name": "Biggy", "id": 161 },
+                { "name": "Barbecue", "id": 162 },
+                { "name": "White", "id": 163 },
+                { "name": "Fromagère", "id": 164 },
+                { "name": "Samurai", "id": 165 },
+                { "name": "Andalouse", "id": 166 }
+              ],
+              "id": 29
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 167 },
+                { "name": "Sauce supplement", "price": 1, "id": 168 },
+                { "name": "Fries", "price": 1, "id": 169 },
+                { "name": "Cheese Supplement", "price": 3, "id": 170 }
+              ],
+              "id": 30
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Tacos Cordon Bleu",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Cordon-Bleu.png",
+          "price": 36,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 171 },
+                { "name": "7 up", "id": 172 },
+                { "name": "Mirinda Citron", "id": 173 },
+                { "name": "Water bottle", "id": 174 },
+                { "name": "Orangina", "id": 175 },
+                { "name": "Lipton", "id": 176 }
+              ],
+              "id": 31
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 177 },
+                { "name": "Biggy", "id": 178 },
+                { "name": "Barbecue", "id": 179 },
+                { "name": "White", "id": 180 },
+                { "name": "Fromagère", "id": 181 },
+                { "name": "Samurai", "id": 182 },
+                { "name": "Andalouse", "id": 183 }
+              ],
+              "id": 32
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 184 },
+                { "name": "Sauce supplement", "price": 1, "id": 185 },
+                { "name": "Fries", "price": 1, "id": 186 },
+                { "name": "Cheese Supplement", "price": 3, "id": 187 }
+              ],
+              "id": 33
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Butter Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Beurre.png",
+          "price": 40,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 188 },
+                { "name": "7 up", "id": 189 },
+                { "name": "Mirinda Citron", "id": 190 },
+                { "name": "Water bottle", "id": 191 },
+                { "name": "Orangina", "id": 192 },
+                { "name": "Lipton", "id": 193 }
+              ],
+              "id": 34
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 194 },
+                { "name": "Biggy", "id": 195 },
+                { "name": "Barbecue", "id": 196 },
+                { "name": "White", "id": 197 },
+                { "name": "Fromagère", "id": 198 },
+                { "name": "Samurai", "id": 199 },
+                { "name": "Andalouse", "id": 200 }
+              ],
+              "id": 35
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 201 },
+                { "name": "Sauce supplement", "price": 1, "id": 202 },
+                { "name": "Fries", "price": 1, "id": 203 },
+                { "name": "Cheese Supplement", "price": 3, "id": 204 }
+              ],
+              "id": 36
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Tacos Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Sandwich.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 205 },
+                { "name": "7 up", "id": 206 },
+                { "name": "Mirinda Citron", "id": 207 },
+                { "name": "Water bottle", "id": 208 },
+                { "name": "Orangina", "id": 209 },
+                { "name": "Lipton", "id": 210 }
+              ],
+              "id": 37
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 211 },
+                { "name": "Biggy", "id": 212 },
+                { "name": "Barbecue", "id": 213 },
+                { "name": "White", "id": 214 },
+                { "name": "Fromagère", "id": 215 },
+                { "name": "Samurai", "id": 216 },
+                { "name": "Andalouse", "id": 217 }
+              ],
+              "id": 38
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 218 },
+                { "name": "Sauce supplement", "price": 1, "id": 219 },
+                { "name": "Fries", "price": 1, "id": 220 },
+                { "name": "Cheese Supplement", "price": 3, "id": 221 }
+              ],
+              "id": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Burgers",
+      "items": [
+        {
+          "id": 29,
+          "name": "Cheese Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Cheese-Burger.png",
+          "price": 38,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 222 },
+                { "name": "Steak House", "id": 223 }
+              ],
+              "id": 40
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 224 },
+                { "name": "Chocolate", "price": 2, "id": 225 }
+              ],
+              "id": 41
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Chicken Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Chicken-Burger.jpg",
+          "price": 36
+        },
+        {
+          "id": 31,
+          "name": "Fish Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Fish-Burger.png",
+          "price": 36
+        },
+        {
+          "id": 32,
+          "name": "Hamburger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Hamburger.png",
+          "price": 42
+        },
+        {
+          "id": 33,
+          "name": "Meat Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Meat-Burger.png",
+          "price": 35
+        },
+        {
+          "id": 34,
+          "name": "Turkey Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Turkey-Burger.png",
+          "price": 37
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pizza",
+      "items": [
+        {
+          "id": 35,
+          "name": "Pizza 4 Fromages",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-4-Fromages.png",
+          "price": 40
+        },
+        {
+          "id": 36,
+          "name": "Pizza 4 Saisons",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-4-Saisons.png",
+          "price": 36
+        },
+        {
+          "id": 37,
+          "name": "Pizza Charcuterie",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Charcutterie.png",
+          "price": 36
+        },
+        {
+          "id": 38,
+          "name": "Seafood Pizza",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Fruit-de-Mer.png",
+          "price": 42
+        },
+        {
+          "id": 39,
+          "name": "Pizza Margaritha",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Margaritha.png",
+          "price": 27
+        },
+        {
+          "id": 40,
+          "name": "Chicken Pizza",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Poulet.png",
+          "price": 30
+        },
+        {
+          "id": 41,
+          "name": "Pizza Thon",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Thon.png",
+          "price": 28
+        },
+        {
+          "id": 42,
+          "name": "Pizza Veggie",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Veggie.png",
+          "price": 37
+        },
+        {
+          "id": 43,
+          "name": "Pizza Meat",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-viande.png",
+          "price": 33
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Salads",
+      "items": [
+        {
+          "id": 44,
+          "name": "Fruit Salad",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Fruits.png",
+          "price": 38
+        },
+        {
+          "id": 45,
+          "name": "SaladeI talienne",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Italienne.png",
+          "price": 36
+        },
+        {
+          "id": 46,
+          "name": "Moroccan Salad",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Marocaine.png",
+          "price": 36
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Main dishes",
+      "items": [
+        {
+          "id": 47,
+          "name": "Dish Steak",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Steak.png",
+          "price": 40
+        },
+        {
+          "id": 48,
+          "name": "Dish Turkey",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Dinde.png",
+          "price": 36
+        },
+        {
+          "id": 49,
+          "name": "Pate Fruit",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pate-Fruit.png",
+          "price": 40
+        },
+        {
+          "id": 50,
+          "name": "Dish Shawrma",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Shawrma.png",
+          "price": 42
+        },
+        {
+          "id": 51,
+          "name": "Steak dish",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Steak.png",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Sandwich",
+      "items": [
+        {
+          "id": 52,
+          "name": "Sandwich-Cordon",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Cordon.png",
+          "price": 30
+        },
+        {
+          "id": 53,
+          "name": "Mixed Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Mixte.png",
+          "price": 27
+        },
+        {
+          "id": 54,
+          "name": "Chicken Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Poulet.png",
+          "price": 26
+        },
+        {
+          "id": 55,
+          "name": "Ground Meat Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Viande-Hachée.png",
+          "price": 26
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Panini",
+      "items": [
+        {
+          "id": 56,
+          "name": "Panini Cruvette",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Cruvette.png",
+          "price": 30
+        },
+        {
+          "id": 57,
+          "name": "Turkey Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Dinde.png",
+          "price": 27
+        },
+        {
+          "id": 58,
+          "name": "Panini Cheese",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Fromage.png",
+          "price": 26
+        },
+        {
+          "id": 59,
+          "name": "Panini Fruite",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Fruite.png",
+          "price": 26
+        },
+        {
+          "id": 60,
+          "name": "Minced Meat Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-vh.png",
+          "price": 26
+        },
+        {
+          "id": 61,
+          "name": "Mixed Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Mixte.png",
+          "price": 28
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Juice",
+      "items": [
+        {
+          "id": 62,
+          "name": "Banana Juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-banane.jpg",
+          "price": 10
+        },
+        {
+          "id": 63,
+          "name": "Fresh orange juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-d-orange-frais.jpg",
+          "price": 10
+        },
+        {
+          "id": 64,
+          "name": "Mango Juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-mangue.jpg",
+          "price": 10
+        },
+        {
+          "id": 65,
+          "name": "Orange juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-orange.jpg",
+          "price": 10
+        },
+        {
+          "id": 66,
+          "name": "jus Panaché",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-panaché.jpg",
+          "price": 10
+        },
+        {
+          "id": 67,
+          "name": "apple juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-pomme.jpg",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Drinks",
+      "items": [
+        { "id": 68, "name": "Pepsi", "price": 8 },
+        { "id": 69, "name": "7up", "price": 8 },
+        { "id": 70, "name": "Mirinda Orange", "price": 8 },
+        { "id": 71, "name": "Mirinda Citron", "price": 8 },
+        { "id": 72, "name": "Mirinda Pomme", "price": 8 },
+        { "id": 73, "name": "Mirinda Hawei", "price": 8 },
+        { "id": 74, "name": "Sprite", "price": 8 },
+        { "id": 75, "name": "Orangina", "price": 8 },
+        { "id": 76, "name": "Water bottle", "price": 8 }
+      ]
+    }
+  ],
+  "1": [
+    {
+      "id": 14,
+      "name": "Tacos",
+      "items": [
+        {
+          "id": 77,
+          "name": "Minced Meat Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Viande-Hachée.png",
+          "price": 30,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 226 },
+                { "name": "7 up", "id": 227 },
+                { "name": "Mirinda Citron", "id": 228 },
+                { "name": "Water bottle", "id": 229 },
+                { "name": "Orangina", "id": 230 },
+                { "name": "Lipton", "id": 231 }
+              ],
+              "id": 42
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 232 },
+                { "name": "Biggy", "id": 233 },
+                { "name": "Barbecue", "id": 234 },
+                { "name": "White", "id": 235 },
+                { "name": "Fromagère", "id": 236 },
+                { "name": "Samurai", "id": 237 },
+                { "name": "Andalouse", "id": 238 }
+              ],
+              "id": 43
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 239 },
+                { "name": "Sauce supplement", "price": 1, "id": 240 },
+                { "name": "Fries", "price": 1, "id": 241 },
+                { "name": "Cheese Supplement", "price": 3, "id": 242 }
+              ],
+              "id": 44
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "name": "Tacos Steak House",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/tacos-steak-house.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 243 },
+                { "name": "7 up", "id": 244 },
+                { "name": "Mirinda Citron", "id": 245 },
+                { "name": "Water bottle", "id": 246 },
+                { "name": "Orangina", "id": 247 },
+                { "name": "Lipton", "id": 248 }
+              ],
+              "id": 45
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 249 },
+                { "name": "Biggy", "id": 250 },
+                { "name": "Barbecue", "id": 251 },
+                { "name": "White", "id": 252 },
+                { "name": "Fromagère", "id": 253 },
+                { "name": "Samurai", "id": 254 },
+                { "name": "Andalouse", "id": 255 }
+              ],
+              "id": 46
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 256 },
+                { "name": "Sauce supplement", "price": 1, "id": 257 },
+                { "name": "Fries", "price": 1, "id": 258 },
+                { "name": "Cheese Supplement", "price": 3, "id": 259 }
+              ],
+              "id": 47
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "name": "Chicken Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Poulet.png",
+          "price": 28,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 260 },
+                { "name": "7 up", "id": 261 },
+                { "name": "Mirinda Citron", "id": 262 },
+                { "name": "Water bottle", "id": 263 },
+                { "name": "Orangina", "id": 264 },
+                { "name": "Lipton", "id": 265 }
+              ],
+              "id": 48
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 266 },
+                { "name": "Biggy", "id": 267 },
+                { "name": "Barbecue", "id": 268 },
+                { "name": "White", "id": 269 },
+                { "name": "Fromagère", "id": 270 },
+                { "name": "Samurai", "id": 271 },
+                { "name": "Andalouse", "id": 272 }
+              ],
+              "id": 49
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 273 },
+                { "name": "Sauce supplement", "price": 1, "id": 274 },
+                { "name": "Fries", "price": 1, "id": 275 },
+                { "name": "Cheese Supplement", "price": 3, "id": 276 }
+              ],
+              "id": 50
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "name": "Tacos Nuggets",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Nuggets.png",
+          "price": 32,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 277 },
+                { "name": "7 up", "id": 278 },
+                { "name": "Mirinda Citron", "id": 279 },
+                { "name": "Water bottle", "id": 280 },
+                { "name": "Orangina", "id": 281 },
+                { "name": "Lipton", "id": 282 }
+              ],
+              "id": 51
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 283 },
+                { "name": "Biggy", "id": 284 },
+                { "name": "Barbecue", "id": 285 },
+                { "name": "White", "id": 286 },
+                { "name": "Fromagère", "id": 287 },
+                { "name": "Samurai", "id": 288 },
+                { "name": "Andalouse", "id": 289 }
+              ],
+              "id": 52
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 290 },
+                { "name": "Sauce supplement", "price": 1, "id": 291 },
+                { "name": "Fries", "price": 1, "id": 292 },
+                { "name": "Cheese Supplement", "price": 3, "id": 293 }
+              ],
+              "id": 53
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "name": "Tacos Cordon Bleu",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Cordon-Bleu.png",
+          "price": 36,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 294 },
+                { "name": "7 up", "id": 295 },
+                { "name": "Mirinda Citron", "id": 296 },
+                { "name": "Water bottle", "id": 297 },
+                { "name": "Orangina", "id": 298 },
+                { "name": "Lipton", "id": 299 }
+              ],
+              "id": 54
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 300 },
+                { "name": "Biggy", "id": 301 },
+                { "name": "Barbecue", "id": 302 },
+                { "name": "White", "id": 303 },
+                { "name": "Fromagère", "id": 304 },
+                { "name": "Samurai", "id": 305 },
+                { "name": "Andalouse", "id": 306 }
+              ],
+              "id": 55
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 307 },
+                { "name": "Sauce supplement", "price": 1, "id": 308 },
+                { "name": "Fries", "price": 1, "id": 309 },
+                { "name": "Cheese Supplement", "price": 3, "id": 310 }
+              ],
+              "id": 56
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "name": "Butter Tacos",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Beurre.png",
+          "price": 40,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 311 },
+                { "name": "7 up", "id": 312 },
+                { "name": "Mirinda Citron", "id": 313 },
+                { "name": "Water bottle", "id": 314 },
+                { "name": "Orangina", "id": 315 },
+                { "name": "Lipton", "id": 316 }
+              ],
+              "id": 57
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 317 },
+                { "name": "Biggy", "id": 318 },
+                { "name": "Barbecue", "id": 319 },
+                { "name": "White", "id": 320 },
+                { "name": "Fromagère", "id": 321 },
+                { "name": "Samurai", "id": 322 },
+                { "name": "Andalouse", "id": 323 }
+              ],
+              "id": 58
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 324 },
+                { "name": "Sauce supplement", "price": 1, "id": 325 },
+                { "name": "Fries", "price": 1, "id": 326 },
+                { "name": "Cheese Supplement", "price": 3, "id": 327 }
+              ],
+              "id": 59
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "name": "Tacos Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Tacos-Sandwich.png",
+          "price": 27,
+          "options": [
+            {
+              "name": "Choose your Drink",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Pepsi", "id": 328 },
+                { "name": "7 up", "id": 329 },
+                { "name": "Mirinda Citron", "id": 330 },
+                { "name": "Water bottle", "id": 331 },
+                { "name": "Orangina", "id": 332 },
+                { "name": "Lipton", "id": 333 }
+              ],
+              "id": 60
+            },
+            {
+              "name": "Choose the sauce",
+              "min": 1,
+              "max": 2,
+              "items": [
+                { "name": "Algerian", "id": 334 },
+                { "name": "Biggy", "id": 335 },
+                { "name": "Barbecue", "id": 336 },
+                { "name": "White", "id": 337 },
+                { "name": "Fromagère", "id": 338 },
+                { "name": "Samurai", "id": 339 },
+                { "name": "Andalouse", "id": 340 }
+              ],
+              "id": 61
+            },
+            {
+              "name": "Would you like a supplement?",
+              "max": 3,
+              "items": [
+                { "name": "Charcuterie", "price": 5, "id": 341 },
+                { "name": "Sauce supplement", "price": 1, "id": 342 },
+                { "name": "Fries", "price": 1, "id": 343 },
+                { "name": "Cheese Supplement", "price": 3, "id": 344 }
+              ],
+              "id": 62
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Burgers",
+      "items": [
+        {
+          "id": 84,
+          "name": "Cheese Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Cheese-Burger.png",
+          "price": 38,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 345 },
+                { "name": "Steak House", "id": 346 }
+              ],
+              "id": 63
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 347 },
+                { "name": "Chocolate", "price": 2, "id": 348 }
+              ],
+              "id": 64
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "name": "Chicken Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Chicken-Burger.jpg",
+          "price": 36,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 349 },
+                { "name": "Steak House", "id": 350 }
+              ],
+              "id": 65
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 351 },
+                { "name": "Chocolate", "price": 2, "id": 352 }
+              ],
+              "id": 66
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "name": "Fish Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Fish-Burger.png",
+          "price": 36,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 353 },
+                { "name": "Steak House", "id": 354 }
+              ],
+              "id": 67
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 355 },
+                { "name": "Chocolate", "price": 2, "id": 356 }
+              ],
+              "id": 68
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "name": "Hamburger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Hamburger.png",
+          "price": 42,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 357 },
+                { "name": "Steak House", "id": 358 }
+              ],
+              "id": 69
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 359 },
+                { "name": "Chocolate", "price": 2, "id": 360 }
+              ],
+              "id": 70
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "name": "Meat Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Meat-Burger.png",
+          "price": 35,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 361 },
+                { "name": "Steak House", "id": 362 }
+              ],
+              "id": 71
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 363 },
+                { "name": "Chocolate", "price": 2, "id": 364 }
+              ],
+              "id": 72
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "Turkey Burger",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Turkey-Burger.png",
+          "price": 37,
+          "options": [
+            {
+              "name": "How would you like your fries?",
+              "min": 1,
+              "max": 1,
+              "items": [
+                { "name": "Fries", "id": 365 },
+                { "name": "Steak House", "id": 366 }
+              ],
+              "id": 73
+            },
+            {
+              "name": "Supplements",
+              "max": 2,
+              "items": [
+                { "name": "Fromage", "price": 1, "id": 367 },
+                { "name": "Chocolate", "price": 2, "id": 368 }
+              ],
+              "id": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pizza",
+      "items": [
+        {
+          "id": 90,
+          "name": "Pizza 4 Fromages",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-4-Fromages.png",
+          "price": 40
+        },
+        {
+          "id": 91,
+          "name": "Pizza 4 Saisons",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-4-Saisons.png",
+          "price": 36
+        },
+        {
+          "id": 92,
+          "name": "Pizza Charcuterie",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Charcutterie.png",
+          "price": 36
+        },
+        {
+          "id": 93,
+          "name": "Seafood Pizza",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Fruit-de-Mer.png",
+          "price": 42
+        },
+        {
+          "id": 94,
+          "name": "Pizza Margaritha",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Margaritha.png",
+          "price": 27
+        },
+        {
+          "id": 95,
+          "name": "Chicken Pizza",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Poulet.png",
+          "price": 30
+        },
+        {
+          "id": 96,
+          "name": "Pizza Thon",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Thon.png",
+          "price": 28
+        },
+        {
+          "id": 97,
+          "name": "Pizza Veggie",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-Veggie.png",
+          "price": 37
+        },
+        {
+          "id": 98,
+          "name": "Pizza Meat",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pizza-viande.png",
+          "price": 33
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Salads",
+      "items": [
+        {
+          "id": 99,
+          "name": "Fruit Salad",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Fruits.png",
+          "price": 38
+        },
+        {
+          "id": 100,
+          "name": "SaladeI talienne",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Italienne.png",
+          "price": 36
+        },
+        {
+          "id": 101,
+          "name": "Moroccan Salad",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Salade-Marocaine.png",
+          "price": 36
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Main dishes",
+      "items": [
+        {
+          "id": 102,
+          "name": "Steak dish",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Steak.png",
+          "price": 40
+        },
+        {
+          "id": 103,
+          "name": "Dish Turkey",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Dinde.png",
+          "price": 36
+        },
+        {
+          "id": 104,
+          "name": "Pate Fruit",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Pate-Fruit.png",
+          "price": 40
+        },
+        {
+          "id": 105,
+          "name": "Dish Shawrma",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Shawrma.png",
+          "price": 42
+        },
+        {
+          "id": 106,
+          "name": "Steak dish",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Plat-Steak.png",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sandwich",
+      "items": [
+        {
+          "id": 107,
+          "name": "Sandwich-Cordon",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Cordon.png",
+          "price": 30
+        },
+        {
+          "id": 108,
+          "name": "Mixed Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Mixte.png",
+          "price": 27
+        },
+        {
+          "id": 109,
+          "name": "Chicken Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Poulet.png",
+          "price": 26
+        },
+        {
+          "id": 110,
+          "name": "Ground Meat Sandwich",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Sandwich-Viande-Hachée.png",
+          "price": 26
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Panini",
+      "items": [
+        {
+          "id": 111,
+          "name": "Panini Cruvette",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Cruvette.png",
+          "price": 30
+        },
+        {
+          "id": 112,
+          "name": "Turkey Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Dinde.png",
+          "price": 27
+        },
+        {
+          "id": 113,
+          "name": "Panini Cheese",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Fromage.png",
+          "price": 26
+        },
+        {
+          "id": 114,
+          "name": "Panini Fruite",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Fruite.png",
+          "price": 26
+        },
+        {
+          "id": 115,
+          "name": "Minced Meat Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-vh.png",
+          "price": 26
+        },
+        {
+          "id": 116,
+          "name": "Mixed Panini",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/Panini-Mixte.png",
+          "price": 28
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Juice",
+      "items": [
+        {
+          "id": 117,
+          "name": "Banana Juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-banane.jpg",
+          "price": 10
+        },
+        {
+          "id": 118,
+          "name": "Fresh orange juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-d-orange-frais.jpg",
+          "price": 10
+        },
+        {
+          "id": 119,
+          "name": "Mango Juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-mangue.jpg",
+          "price": 10
+        },
+        {
+          "id": 120,
+          "name": "Orange juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-orange.jpg",
+          "price": 10
+        },
+        {
+          "id": 121,
+          "name": "jus Panaché",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-panaché.jpg",
+          "price": 10
+        },
+        {
+          "id": 122,
+          "name": "apple juice",
+          "image": "https://res.cloudinary.com/uiresto/image/upload/menus/jus-pomme.jpg",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Drinks",
+      "items": [
+        { "id": 123, "name": "Pepsi", "price": 8 },
+        { "id": 124, "name": "7up", "price": 8 },
+        { "id": 125, "name": "Mirinda Orange", "price": 8 },
+        { "id": 126, "name": "Mirinda Citron", "price": 8 },
+        { "id": 127, "name": "Mirinda Pomme", "price": 8 },
+        { "id": 128, "name": "Mirinda Hawei", "price": 8 },
+        { "id": 129, "name": "Sprite", "price": 8 },
+        { "id": 130, "name": "Orangina", "price": 8 },
+        { "id": 131, "name": "Water bottle", "price": 8 }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": 23,
+      "name": "Hot Drinks",
+      "items": [
+        { "id": 132, "name": "Separated café au lait", "price": 18 },
+        { "id": 133, "name": "Cream coffee", "price": 15 },
+        { "id": 134, "name": "Italian style cappuccino", "price": 18 },
+        { "id": 135, "name": "Hot chocolate", "price": 22 },
+        { "id": 136, "name": "Mocaccino", "price": 22 },
+        { "id": 137, "name": "Nespresso + mireral water", "price": 18 },
+        { "id": 138, "name": "Ness Ness + mineral water", "price": 18 },
+        { "id": 139, "name": "Lavazza + mineral water", "price": 18 }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Fresh fruit juice",
+      "items": [
+        { "id": 140, "name": "Orange juice", "price": 22 },
+        { "id": 141, "name": "Citronade mint", "price": 22 },
+        { "id": 142, "name": "Honey and lemon ginger", "price": 25 },
+        { "id": 143, "name": "Banana juice", "price": 22 },
+        { "id": 144, "name": "Apple juice", "price": 22 },
+        { "id": 145, "name": "Strawberry juice", "price": 22 },
+        { "id": 146, "name": "Pineapple juice", "price": 22 },
+        { "id": 147, "name": "Mango juice", "price": 22 },
+        { "id": 148, "name": "Kiwi juice", "price": 22 },
+        { "id": 149, "name": "Peach juice", "price": 22 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Tea Infusions",
+      "items": [
+        { "id": 150, "name": "Verbena green tea", "price": 18 },
+        { "id": 151, "name": "Green tea with mint", "price": 15 },
+        { "id": 152, "name": "Lipron black tea", "price": 18 },
+        { "id": 153, "name": "Earl Gray black tea", "price": 22 },
+        { "id": 154, "name": "Darjelinge black tea", "price": 22 },
+        { "id": 155, "name": "Relaxing Jasmine tea", "price": 18 },
+        { "id": 156, "name": "Relaxing Chamomile tea", "price": 18 }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Sodas",
+      "items": [
+        { "id": 157, "name": "Coca Cola Zero", "price": 18 },
+        { "id": 158, "name": "Sprite", "price": 15 },
+        { "id": 159, "name": "Hawai", "price": 18 },
+        { "id": 160, "name": "Schwepps Tonic", "price": 22 },
+        { "id": 161, "name": "RedBull", "price": 22 },
+        { "id": 162, "name": "Orangina", "price": 18 },
+        { "id": 163, "name": "Fanta Orange", "price": 18 }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Pancakes",
+      "items": [
+        { "id": 164, "name": "Sweet Crêpe", "price": 18 },
+        { "id": 165, "name": "Nutella Crêpe", "price": 15 },
+        { "id": 166, "name": "Nutella Banana Crêpe", "price": 18 },
+        { "id": 167, "name": "Crêpe Almond miel", "price": 22 },
+        { "id": 168, "name": "Crêpes Turkey ham cheese", "price": 22 },
+        { "id": 169, "name": "Seafood crêpes", "price": 25 },
+        { "id": 170, "name": "Pancakes Chicken mushroom", "price": 18 }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Croissants",
+      "items": [
+        { "id": 171, "name": "Single ascending", "price": 18 },
+        { "id": 172, "name": "Croissant chocolat", "price": 15 }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Cakes",
+      "items": [
+        { "id": 173, "name": "Vanilla cake", "price": 18 },
+        { "id": 174, "name": "Chocolate cake", "price": 15 }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Panini",
+      "items": [
+        { "id": 175, "name": "Panini Hot Dog", "price": 26 },
+        { "id": 176, "name": "Panini Meat", "price": 26 },
+        { "id": 177, "name": "Panini Chicken", "price": 28 }
+      ]
+    }
+  ]
+}
