@@ -16,6 +16,7 @@ const ContentBox = styled(Box)`
 
   .MuiButton-text {
     padding: 0;
+    min-width: 0;
   }
 `
 
