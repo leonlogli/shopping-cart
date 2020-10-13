@@ -9,7 +9,7 @@ const HeaderTitlePaneRoot = styled(Paper)`
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  box-shadow: 0 8px 6px -6px gainsboro;
+  box-shadow: 0 8px 6px -6px ${({ theme }) => theme.palette.divider};
   top: 0;
   z-index: 1;
 
