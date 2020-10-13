@@ -7,16 +7,14 @@ const menuItemOptionsFormValiation = ({
   min,
 }: MenuOptionGroup): ValidationRules => ({
   ...((min || 0) === 1 && {
-    required: 'Vous devez choisir un produit',
+    required: 'You must choose one product',
   }),
 
   ...(!!min &&
     (min || 0) > 1 && {
       minLength: {
         value: min,
-        message: `Veuillez choisir au moins ${min} produit${
-          min > 1 ? 's' : ''
-        }`,
+        message: `You must choose at least ${min} product${min > 1 ? 's' : ''}`,
       },
     }),
 
@@ -24,7 +22,7 @@ const menuItemOptionsFormValiation = ({
     (min || 0) > 1 && {
       maxLength: {
         value: max,
-        message: `Vous ne pouvez pas choisir plus ${max} produit${
+        message: `You cannot choose more than ${max} product${
           max > 1 ? 's' : ''
         }`,
       },
