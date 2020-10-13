@@ -13,16 +13,16 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
     className="ShoppingCartItem "
   >
     <ForwardRef
-      className="ijNViZ ShoppingCartItem "
+      className="kPOBoe ShoppingCartItem "
     >
       <Styled(Styled(MuiBox))
-        className="ijNViZ ShoppingCartItem "
+        className="kPOBoe ShoppingCartItem "
       >
         <Styled(MuiBox)
-          className="dUNeVP ijNViZ ShoppingCartItem "
+          className="dUNeVP kPOBoe ShoppingCartItem "
         >
           <div
-            className="MuiBox-root MuiBox-root-1 dUNeVP ijNViZ ShoppingCartItem "
+            className="MuiBox-root MuiBox-root-1 dUNeVP kPOBoe ShoppingCartItem "
           >
             <ForwardRef
               flexGrow={1}
@@ -41,16 +41,16 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
                       className="Title"
                     >
                       <Text
-                        className="glOHi Title"
+                        className="bIAGWW Title"
                       >
                         <Styled(WithStyles(ForwardRef(Typography)))
-                          className="glOHi Title"
+                          className="bIAGWW Title"
                         >
                           <WithStyles(ForwardRef(Typography))
-                            className="glOHi Title"
+                            className="bIAGWW Title"
                           >
                             <ForwardRef(Typography)
-                              className="glOHi Title"
+                              className="bIAGWW Title"
                               classes={
                                 Object {
                                   "alignCenter": "MuiTypography-alignCenter",
@@ -87,7 +87,7 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
                               }
                             >
                               <p
-                                className="MuiTypography-root glOHi Title MuiTypography-body1"
+                                className="MuiTypography-root bIAGWW Title MuiTypography-body1"
                               >
                                 Tacos cordon Bleu
                               </p>
@@ -98,12 +98,15 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
                     </Styled(Text)>
                     <ForwardRef
                       className="subTitleBox"
+                      color="text.secondary"
                     >
                       <Styled(Styled(MuiBox))
                         className="subTitleBox"
+                        color="text.secondary"
                       >
                         <Styled(MuiBox)
                           className="dUNeVP subTitleBox"
+                          color="text.secondary"
                         >
                           <div
                             className="MuiBox-root MuiBox-root-3 dUNeVP subTitleBox"
@@ -159,7 +162,7 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
                                     <span
                                       className="MuiTypography-root MuiTypography-caption"
                                     >
-                                      27.00 MAD
+                                      27.00 USD
                                     </span>
                                   </ForwardRef(Typography)>
                                 </WithStyles(ForwardRef(Typography))>
@@ -266,16 +269,16 @@ exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
             >
               <Styled(Component)>
                 <ForwardRef
-                  className="iGfiUd"
+                  className="PsAiq"
                 >
                   <Styled(Styled(MuiBox))
-                    className="iGfiUd"
+                    className="PsAiq"
                   >
                     <Styled(MuiBox)
-                      className="dUNeVP iGfiUd"
+                      className="dUNeVP PsAiq"
                     >
                       <div
-                        className="MuiBox-root MuiBox-root-4 dUNeVP iGfiUd"
+                        className="MuiBox-root MuiBox-root-4 dUNeVP PsAiq"
                       >
                         <WithStyles(ForwardRef(IconButton))
                           aria-label="remove"

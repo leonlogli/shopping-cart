@@ -38,11 +38,11 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
     elevation={0}
   >
     <WithStyles(ForwardRef(Accordion))
-      className="gcjZAr"
+      className="enESsk"
       elevation={0}
     >
       <ForwardRef(Accordion)
-        className="gcjZAr"
+        className="enESsk"
         classes={
           Object {
             "disabled": "Mui-disabled",
@@ -54,12 +54,12 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
         elevation={0}
       >
         <WithStyles(ForwardRef(Paper))
-          className="MuiAccordion-root gcjZAr MuiAccordion-rounded"
+          className="MuiAccordion-root enESsk MuiAccordion-rounded"
           elevation={0}
           square={false}
         >
           <ForwardRef(Paper)
-            className="MuiAccordion-root gcjZAr MuiAccordion-rounded"
+            className="MuiAccordion-root enESsk MuiAccordion-rounded"
             classes={
               Object {
                 "elevation0": "MuiPaper-elevation0",
@@ -96,7 +96,7 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
             square={false}
           >
             <div
-              className="MuiPaper-root MuiAccordion-root gcjZAr MuiAccordion-rounded MuiPaper-elevation0 MuiPaper-rounded"
+              className="MuiPaper-root MuiAccordion-root enESsk MuiAccordion-rounded MuiPaper-elevation0 MuiPaper-rounded"
             >
               <WithStyles(ForwardRef(AccordionSummary))
                 aria-controls="ScheduleAccordion-content"
@@ -180,19 +180,19 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
                             open={true}
                           >
                             <ForwardRef
-                              className="eAyDKg"
+                              className="fLOIhJ"
                               open={true}
                             >
                               <Styled(Styled(MuiBox))
-                                className="eAyDKg"
+                                className="fLOIhJ"
                                 open={true}
                               >
                                 <Styled(MuiBox)
-                                  className="dUNeVP eAyDKg"
+                                  className="dUNeVP fLOIhJ"
                                   open={true}
                                 >
                                   <div
-                                    className="MuiBox-root MuiBox-root-1 dUNeVP eAyDKg"
+                                    className="MuiBox-root MuiBox-root-1 dUNeVP fLOIhJ"
                                     open={true}
                                   >
                                     <Text>
@@ -240,7 +240,7 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
                                             <p
                                               className="MuiTypography-root MuiTypography-body1"
                                             >
-                                              Ouvert
+                                              Open
                                             </p>
                                           </ForwardRef(Typography)>
                                         </WithStyles(ForwardRef(Typography))>
@@ -515,122 +515,12 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
                                   className="MuiAccordionDetails-root"
                                 >
                                   <styled.table
-                                    isOpenToday={false}
+                                    isOpenToday={true}
                                   >
                                     <table
-                                      className="eoSVgZ"
+                                      className="cTKrYU"
                                     >
                                       <tbody>
-                                        <tr
-                                          key="MONDAY"
-                                        >
-                                          <th>
-                                            <Text>
-                                              <Styled(WithStyles(ForwardRef(Typography)))>
-                                                <WithStyles(ForwardRef(Typography))
-                                                  className=""
-                                                >
-                                                  <ForwardRef(Typography)
-                                                    className=""
-                                                    classes={
-                                                      Object {
-                                                        "alignCenter": "MuiTypography-alignCenter",
-                                                        "alignJustify": "MuiTypography-alignJustify",
-                                                        "alignLeft": "MuiTypography-alignLeft",
-                                                        "alignRight": "MuiTypography-alignRight",
-                                                        "body1": "MuiTypography-body1",
-                                                        "body2": "MuiTypography-body2",
-                                                        "button": "MuiTypography-button",
-                                                        "caption": "MuiTypography-caption",
-                                                        "colorError": "MuiTypography-colorError",
-                                                        "colorInherit": "MuiTypography-colorInherit",
-                                                        "colorPrimary": "MuiTypography-colorPrimary",
-                                                        "colorSecondary": "MuiTypography-colorSecondary",
-                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                        "displayBlock": "MuiTypography-displayBlock",
-                                                        "displayInline": "MuiTypography-displayInline",
-                                                        "gutterBottom": "MuiTypography-gutterBottom",
-                                                        "h1": "MuiTypography-h1",
-                                                        "h2": "MuiTypography-h2",
-                                                        "h3": "MuiTypography-h3",
-                                                        "h4": "MuiTypography-h4",
-                                                        "h5": "MuiTypography-h5",
-                                                        "h6": "MuiTypography-h6",
-                                                        "noWrap": "MuiTypography-noWrap",
-                                                        "overline": "MuiTypography-overline",
-                                                        "paragraph": "MuiTypography-paragraph",
-                                                        "root": "MuiTypography-root",
-                                                        "srOnly": "MuiTypography-srOnly",
-                                                        "subtitle1": "MuiTypography-subtitle1",
-                                                        "subtitle2": "MuiTypography-subtitle2",
-                                                      }
-                                                    }
-                                                  >
-                                                    <p
-                                                      className="MuiTypography-root MuiTypography-body1"
-                                                    >
-                                                      Mon
-                                                    </p>
-                                                  </ForwardRef(Typography)>
-                                                </WithStyles(ForwardRef(Typography))>
-                                              </Styled(WithStyles(ForwardRef(Typography)))>
-                                            </Text>
-                                          </th>
-                                          <td>
-                                            <Text>
-                                              <Styled(WithStyles(ForwardRef(Typography)))>
-                                                <WithStyles(ForwardRef(Typography))
-                                                  className=""
-                                                >
-                                                  <ForwardRef(Typography)
-                                                    className=""
-                                                    classes={
-                                                      Object {
-                                                        "alignCenter": "MuiTypography-alignCenter",
-                                                        "alignJustify": "MuiTypography-alignJustify",
-                                                        "alignLeft": "MuiTypography-alignLeft",
-                                                        "alignRight": "MuiTypography-alignRight",
-                                                        "body1": "MuiTypography-body1",
-                                                        "body2": "MuiTypography-body2",
-                                                        "button": "MuiTypography-button",
-                                                        "caption": "MuiTypography-caption",
-                                                        "colorError": "MuiTypography-colorError",
-                                                        "colorInherit": "MuiTypography-colorInherit",
-                                                        "colorPrimary": "MuiTypography-colorPrimary",
-                                                        "colorSecondary": "MuiTypography-colorSecondary",
-                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                                        "displayBlock": "MuiTypography-displayBlock",
-                                                        "displayInline": "MuiTypography-displayInline",
-                                                        "gutterBottom": "MuiTypography-gutterBottom",
-                                                        "h1": "MuiTypography-h1",
-                                                        "h2": "MuiTypography-h2",
-                                                        "h3": "MuiTypography-h3",
-                                                        "h4": "MuiTypography-h4",
-                                                        "h5": "MuiTypography-h5",
-                                                        "h6": "MuiTypography-h6",
-                                                        "noWrap": "MuiTypography-noWrap",
-                                                        "overline": "MuiTypography-overline",
-                                                        "paragraph": "MuiTypography-paragraph",
-                                                        "root": "MuiTypography-root",
-                                                        "srOnly": "MuiTypography-srOnly",
-                                                        "subtitle1": "MuiTypography-subtitle1",
-                                                        "subtitle2": "MuiTypography-subtitle2",
-                                                      }
-                                                    }
-                                                  >
-                                                    <p
-                                                      className="MuiTypography-root MuiTypography-body1"
-                                                    >
-                                                      07:30–23:00
-                                                    </p>
-                                                  </ForwardRef(Typography)>
-                                                </WithStyles(ForwardRef(Typography))>
-                                              </Styled(WithStyles(ForwardRef(Typography)))>
-                                            </Text>
-                                          </td>
-                                        </tr>
                                         <tr
                                           key="TUESDAY"
                                         >
@@ -1011,6 +901,116 @@ exports[`<ScheduleAccordion /> should match a snapshot 1`] = `
                                                       className="MuiTypography-root MuiTypography-body1"
                                                     >
                                                       Fri
+                                                    </p>
+                                                  </ForwardRef(Typography)>
+                                                </WithStyles(ForwardRef(Typography))>
+                                              </Styled(WithStyles(ForwardRef(Typography)))>
+                                            </Text>
+                                          </th>
+                                          <td>
+                                            <Text>
+                                              <Styled(WithStyles(ForwardRef(Typography)))>
+                                                <WithStyles(ForwardRef(Typography))
+                                                  className=""
+                                                >
+                                                  <ForwardRef(Typography)
+                                                    className=""
+                                                    classes={
+                                                      Object {
+                                                        "alignCenter": "MuiTypography-alignCenter",
+                                                        "alignJustify": "MuiTypography-alignJustify",
+                                                        "alignLeft": "MuiTypography-alignLeft",
+                                                        "alignRight": "MuiTypography-alignRight",
+                                                        "body1": "MuiTypography-body1",
+                                                        "body2": "MuiTypography-body2",
+                                                        "button": "MuiTypography-button",
+                                                        "caption": "MuiTypography-caption",
+                                                        "colorError": "MuiTypography-colorError",
+                                                        "colorInherit": "MuiTypography-colorInherit",
+                                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                                        "displayBlock": "MuiTypography-displayBlock",
+                                                        "displayInline": "MuiTypography-displayInline",
+                                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                                        "h1": "MuiTypography-h1",
+                                                        "h2": "MuiTypography-h2",
+                                                        "h3": "MuiTypography-h3",
+                                                        "h4": "MuiTypography-h4",
+                                                        "h5": "MuiTypography-h5",
+                                                        "h6": "MuiTypography-h6",
+                                                        "noWrap": "MuiTypography-noWrap",
+                                                        "overline": "MuiTypography-overline",
+                                                        "paragraph": "MuiTypography-paragraph",
+                                                        "root": "MuiTypography-root",
+                                                        "srOnly": "MuiTypography-srOnly",
+                                                        "subtitle1": "MuiTypography-subtitle1",
+                                                        "subtitle2": "MuiTypography-subtitle2",
+                                                      }
+                                                    }
+                                                  >
+                                                    <p
+                                                      className="MuiTypography-root MuiTypography-body1"
+                                                    >
+                                                      07:30–23:00
+                                                    </p>
+                                                  </ForwardRef(Typography)>
+                                                </WithStyles(ForwardRef(Typography))>
+                                              </Styled(WithStyles(ForwardRef(Typography)))>
+                                            </Text>
+                                          </td>
+                                        </tr>
+                                        <tr
+                                          key="MONDAY"
+                                        >
+                                          <th>
+                                            <Text>
+                                              <Styled(WithStyles(ForwardRef(Typography)))>
+                                                <WithStyles(ForwardRef(Typography))
+                                                  className=""
+                                                >
+                                                  <ForwardRef(Typography)
+                                                    className=""
+                                                    classes={
+                                                      Object {
+                                                        "alignCenter": "MuiTypography-alignCenter",
+                                                        "alignJustify": "MuiTypography-alignJustify",
+                                                        "alignLeft": "MuiTypography-alignLeft",
+                                                        "alignRight": "MuiTypography-alignRight",
+                                                        "body1": "MuiTypography-body1",
+                                                        "body2": "MuiTypography-body2",
+                                                        "button": "MuiTypography-button",
+                                                        "caption": "MuiTypography-caption",
+                                                        "colorError": "MuiTypography-colorError",
+                                                        "colorInherit": "MuiTypography-colorInherit",
+                                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                                        "displayBlock": "MuiTypography-displayBlock",
+                                                        "displayInline": "MuiTypography-displayInline",
+                                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                                        "h1": "MuiTypography-h1",
+                                                        "h2": "MuiTypography-h2",
+                                                        "h3": "MuiTypography-h3",
+                                                        "h4": "MuiTypography-h4",
+                                                        "h5": "MuiTypography-h5",
+                                                        "h6": "MuiTypography-h6",
+                                                        "noWrap": "MuiTypography-noWrap",
+                                                        "overline": "MuiTypography-overline",
+                                                        "paragraph": "MuiTypography-paragraph",
+                                                        "root": "MuiTypography-root",
+                                                        "srOnly": "MuiTypography-srOnly",
+                                                        "subtitle1": "MuiTypography-subtitle1",
+                                                        "subtitle2": "MuiTypography-subtitle2",
+                                                      }
+                                                    }
+                                                  >
+                                                    <p
+                                                      className="MuiTypography-root MuiTypography-body1"
+                                                    >
+                                                      Mon
                                                     </p>
                                                   </ForwardRef(Typography)>
                                                 </WithStyles(ForwardRef(Typography))>

@@ -127,11 +127,12 @@ exports[`<NavBarBrand /> should match a snapshot 1`] = `
                             onMouseEnter={[Function]}
                           >
                             <ForwardRef
+                              fill="currentColor"
                               size="26"
                             >
                               <svg
                                 className="Logo "
-                                fill="white"
+                                fill="currentColor"
                                 height="26"
                                 viewBox="0 0 24 24"
                                 width="26"

@@ -10,10 +10,10 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
     className="MenuItemCard "
   >
     <WithStyles(ForwardRef(Paper))
-      className="gLgRta MenuItemCard "
+      className="duKFOh MenuItemCard "
     >
       <ForwardRef(Paper)
-        className="gLgRta MenuItemCard "
+        className="duKFOh MenuItemCard "
         classes={
           Object {
             "elevation0": "MuiPaper-elevation0",
@@ -48,7 +48,7 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
         }
       >
         <div
-          className="MuiPaper-root gLgRta MenuItemCard  MuiPaper-elevation1 MuiPaper-rounded"
+          className="MuiPaper-root duKFOh MenuItemCard  MuiPaper-elevation1 MuiPaper-rounded"
         >
           <ForwardRef
             flexGrow={1}
@@ -84,33 +84,33 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
                               ratio={55}
                             >
                               <ForwardRef
-                                className="bTpiGL"
+                                className="eEgxxS"
                                 ratio={55}
                               >
                                 <Styled(Styled(MuiBox))
-                                  className="bTpiGL"
+                                  className="eEgxxS"
                                   ratio={55}
                                 >
                                   <Styled(MuiBox)
-                                    className="dUNeVP bTpiGL"
+                                    className="dUNeVP eEgxxS"
                                     ratio={55}
                                   >
                                     <div
-                                      className="MuiBox-root MuiBox-root-3 dUNeVP bTpiGL"
+                                      className="MuiBox-root MuiBox-root-3 dUNeVP eEgxxS"
                                       ratio={55}
                                     >
                                       <Styled(Component)>
                                         <ForwardRef
-                                          className="kxbNdS"
+                                          className="eMiRfY"
                                         >
                                           <Styled(Styled(MuiBox))
-                                            className="kxbNdS"
+                                            className="eMiRfY"
                                           >
                                             <Styled(MuiBox)
-                                              className="dUNeVP kxbNdS"
+                                              className="dUNeVP eMiRfY"
                                             >
                                               <div
-                                                className="MuiBox-root MuiBox-root-4 dUNeVP kxbNdS"
+                                                className="MuiBox-root MuiBox-root-4 dUNeVP eMiRfY"
                                               >
                                                 <img
                                                   alt="Tacos"
@@ -137,18 +137,18 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
                     className="Title"
                   >
                     <H6
-                      className="jNa-doO Title"
+                      className="bSZpwu Title"
                     >
                       <Styled(WithStyles(ForwardRef(Typography)))
-                        className="jNa-doO Title"
+                        className="bSZpwu Title"
                         variant="h6"
                       >
                         <WithStyles(ForwardRef(Typography))
-                          className="jNa-doO Title"
+                          className="bSZpwu Title"
                           variant="h6"
                         >
                           <ForwardRef(Typography)
-                            className="jNa-doO Title"
+                            className="bSZpwu Title"
                             classes={
                               Object {
                                 "alignCenter": "MuiTypography-alignCenter",
@@ -186,7 +186,7 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
                             variant="h6"
                           >
                             <h6
-                              className="MuiTypography-root jNa-doO Title MuiTypography-h6"
+                              className="MuiTypography-root bSZpwu Title MuiTypography-h6"
                             >
                               Tacos
                             </h6>
@@ -201,16 +201,16 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
           </ForwardRef>
           <Styled(Component)>
             <ForwardRef
-              className="hriKQ"
+              className="gWamZE"
             >
               <Styled(Styled(MuiBox))
-                className="hriKQ"
+                className="gWamZE"
               >
                 <Styled(MuiBox)
-                  className="dUNeVP hriKQ"
+                  className="dUNeVP gWamZE"
                 >
                   <div
-                    className="MuiBox-root MuiBox-root-5 dUNeVP hriKQ"
+                    className="MuiBox-root MuiBox-root-5 dUNeVP gWamZE"
                   >
                     <Text>
                       <Styled(WithStyles(ForwardRef(Typography)))>
@@ -257,7 +257,7 @@ exports[`<MenuItemCard /> should match a snapshot 1`] = `
                             <p
                               className="MuiTypography-root MuiTypography-body1"
                             >
-                              27.00 MAD
+                              27.00 USD
                             </p>
                           </ForwardRef(Typography)>
                         </WithStyles(ForwardRef(Typography))>

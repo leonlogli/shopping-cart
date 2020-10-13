@@ -15,19 +15,19 @@ exports[`<Error /> should match a snapshot 1`] = `
     fullWidth={true}
   >
     <ForwardRef
-      className="iONKWK"
+      className="gulRap"
       fullWidth={true}
     >
       <Styled(Styled(MuiBox))
-        className="iONKWK"
+        className="gulRap"
         fullWidth={true}
       >
         <Styled(MuiBox)
-          className="eZBijs iONKWK"
+          className="eZBijs gulRap"
           fullWidth={true}
         >
           <div
-            className="MuiBox-root MuiBox-root-1 eZBijs iONKWK"
+            className="MuiBox-root MuiBox-root-1 eZBijs gulRap"
             fullWidth={true}
           >
             <styled.img
@@ -36,7 +36,7 @@ exports[`<Error /> should match a snapshot 1`] = `
             >
               <img
                 alt="Error 500"
-                className="kJXbmR"
+                className="iyCTNV"
                 src=""
               />
             </styled.img>
@@ -158,16 +158,16 @@ exports[`<Error /> should match a snapshot 1`] = `
             </Text>
             <Styled(Component)>
               <ForwardRef
-                className="cLFLgL"
+                className="hhjyXT"
               >
                 <Styled(Styled(MuiBox))
-                  className="cLFLgL"
+                  className="hhjyXT"
                 >
                   <Styled(MuiBox)
-                    className="dUNeVP cLFLgL"
+                    className="dUNeVP hhjyXT"
                   >
                     <div
-                      className="MuiBox-root MuiBox-root-2 dUNeVP cLFLgL"
+                      className="MuiBox-root MuiBox-root-2 dUNeVP hhjyXT"
                     >
                       <WithStyles(ForwardRef(Button))
                         color="primary"

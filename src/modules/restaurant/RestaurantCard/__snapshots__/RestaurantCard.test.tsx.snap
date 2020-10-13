@@ -10,19 +10,19 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
     className="RestaurantCard "
   >
     <ForwardRef
-      className="euvjqF RestaurantCard "
+      className="ftSOgX RestaurantCard "
     >
       <Styled(Styled(MuiBox))
-        className="euvjqF RestaurantCard "
+        className="ftSOgX RestaurantCard "
       >
         <Styled(MuiBox)
-          className="dUNeVP euvjqF RestaurantCard "
+          className="dUNeVP ftSOgX RestaurantCard "
         >
           <div
-            className="MuiBox-root MuiBox-root-1 dUNeVP euvjqF RestaurantCard "
+            className="MuiBox-root MuiBox-root-1 dUNeVP ftSOgX RestaurantCard "
           >
             <RatioBox
-              ratio={94}
+              ratio={80}
             >
               <ForwardRef>
                 <Styled(Styled(MuiBox))>
@@ -33,46 +33,46 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                       className="MuiBox-root MuiBox-root-2 dUNeVP"
                     >
                       <Styled(Component)
-                        ratio={94}
+                        ratio={80}
                       >
                         <ForwardRef
-                          className="fxmcfe"
-                          ratio={94}
+                          className="kTqonC"
+                          ratio={80}
                         >
                           <Styled(Styled(MuiBox))
-                            className="fxmcfe"
-                            ratio={94}
+                            className="kTqonC"
+                            ratio={80}
                           >
                             <Styled(MuiBox)
-                              className="dUNeVP fxmcfe"
-                              ratio={94}
+                              className="dUNeVP kTqonC"
+                              ratio={80}
                             >
                               <div
-                                className="MuiBox-root MuiBox-root-3 dUNeVP fxmcfe"
-                                ratio={94}
+                                className="MuiBox-root MuiBox-root-3 dUNeVP kTqonC"
+                                ratio={80}
                               >
                                 <Styled(Component)>
                                   <ForwardRef
-                                    className="kxbNdS"
+                                    className="eMiRfY"
                                   >
                                     <Styled(Styled(MuiBox))
-                                      className="kxbNdS"
+                                      className="eMiRfY"
                                     >
                                       <Styled(MuiBox)
-                                        className="dUNeVP kxbNdS"
+                                        className="dUNeVP eMiRfY"
                                       >
                                         <div
-                                          className="MuiBox-root MuiBox-root-4 dUNeVP kxbNdS"
+                                          className="MuiBox-root MuiBox-root-4 dUNeVP eMiRfY"
                                         >
                                           <Styled(WithStyles(ForwardRef(CardActionArea)))
                                             image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                           >
                                             <WithStyles(ForwardRef(CardActionArea))
-                                              className="kgIEMH"
+                                              className="evjkMQ"
                                               image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                             >
                                               <ForwardRef(CardActionArea)
-                                                className="kgIEMH"
+                                                className="evjkMQ"
                                                 classes={
                                                   Object {
                                                     "focusHighlight": "MuiCardActionArea-focusHighlight",
@@ -83,12 +83,12 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                 image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                               >
                                                 <WithStyles(ForwardRef(ButtonBase))
-                                                  className="MuiCardActionArea-root kgIEMH"
+                                                  className="MuiCardActionArea-root evjkMQ"
                                                   focusVisibleClassName="Mui-focusVisible"
                                                   image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                                 >
                                                   <ForwardRef(ButtonBase)
-                                                    className="MuiCardActionArea-root kgIEMH"
+                                                    className="MuiCardActionArea-root evjkMQ"
                                                     classes={
                                                       Object {
                                                         "disabled": "Mui-disabled",
@@ -100,7 +100,7 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                     image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                                   >
                                                     <button
-                                                      className="MuiButtonBase-root MuiCardActionArea-root kgIEMH"
+                                                      className="MuiButtonBase-root MuiCardActionArea-root evjkMQ"
                                                       disabled={false}
                                                       image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
                                                       onBlur={[Function]}
@@ -121,18 +121,18 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                         className="Title"
                                                       >
                                                         <H6
-                                                          className="fOaJtt Title"
+                                                          className="dtGNsh Title"
                                                         >
                                                           <Styled(WithStyles(ForwardRef(Typography)))
-                                                            className="fOaJtt Title"
+                                                            className="dtGNsh Title"
                                                             variant="h6"
                                                           >
                                                             <WithStyles(ForwardRef(Typography))
-                                                              className="fOaJtt Title"
+                                                              className="dtGNsh Title"
                                                               variant="h6"
                                                             >
                                                               <ForwardRef(Typography)
-                                                                className="fOaJtt Title"
+                                                                className="dtGNsh Title"
                                                                 classes={
                                                                   Object {
                                                                     "alignCenter": "MuiTypography-alignCenter",
@@ -170,7 +170,7 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                                 variant="h6"
                                                               >
                                                                 <h6
-                                                                  className="MuiTypography-root fOaJtt Title MuiTypography-h6"
+                                                                  className="MuiTypography-root dtGNsh Title MuiTypography-h6"
                                                                 >
                                                                   Restaurant Principal
                                                                 </h6>
@@ -181,16 +181,16 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                       </Styled(H6)>
                                                       <Styled(Component)>
                                                         <ForwardRef
-                                                          className="hueOnz"
+                                                          className="dfyiir"
                                                         >
                                                           <Styled(Styled(MuiBox))
-                                                            className="hueOnz"
+                                                            className="dfyiir"
                                                           >
                                                             <Styled(MuiBox)
-                                                              className="dUNeVP hueOnz"
+                                                              className="dUNeVP dfyiir"
                                                             >
                                                               <div
-                                                                className="MuiBox-root MuiBox-root-5 dUNeVP hueOnz"
+                                                                className="MuiBox-root MuiBox-root-5 dUNeVP dfyiir"
                                                               >
                                                                 Repas variés
                                                               </div>
@@ -240,22 +240,22 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                             variant="button"
                                           >
                                             <Text
-                                              className="gUpNge"
+                                              className="gJyblC"
                                               open={true}
                                               variant="button"
                                             >
                                               <Styled(WithStyles(ForwardRef(Typography)))
-                                                className="gUpNge"
+                                                className="gJyblC"
                                                 open={true}
                                                 variant="button"
                                               >
                                                 <WithStyles(ForwardRef(Typography))
-                                                  className="gUpNge"
+                                                  className="gJyblC"
                                                   open={true}
                                                   variant="button"
                                                 >
                                                   <ForwardRef(Typography)
-                                                    className="gUpNge"
+                                                    className="gJyblC"
                                                     classes={
                                                       Object {
                                                         "alignCenter": "MuiTypography-alignCenter",
@@ -294,7 +294,7 @@ exports[`<RestaurantCard /> should match a snapshot 1`] = `
                                                     variant="button"
                                                   >
                                                     <span
-                                                      className="MuiTypography-root gUpNge MuiTypography-button"
+                                                      className="MuiTypography-root gJyblC MuiTypography-button"
                                                       open={true}
                                                     >
                                                       open
