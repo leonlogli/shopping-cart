@@ -7,12 +7,16 @@ import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh'
 import Paper from '@material-ui/core/Paper'
 import { AppBarProps } from '@material-ui/core/AppBar'
 import Hidden from '@material-ui/core/Hidden'
+import { useSelector } from 'react-redux'
+
+import NavBarLeftMenu from '../NavBarLeftMenu'
 
 import { NavToolBar, NavBarRoot, SideDrawer } from './NavBar.style'
 
 import { useModal } from '../../../hooks'
-import NavBarLeftMenu from '../NavBarLeftMenu'
 import { useTheme } from '../../../context'
+import { getCartItemsCount, ShoppingCart } from '../../../modules/cart'
+import { restaurantsSelector } from '../../../modules/restaurant'
 
 export type NavBarProps = AppBarProps
 
@@ -20,6 +24,8 @@ const NavBar = (props: NavBarProps) => {
   const { handleClose, handleOpen, open } = useModal()
   const { theme, setTheme } = useTheme()
   const isDarkMode = theme.name === 'Dark'
+  const cartItemCount = useSelector(getCartItemsCount)
+  const { restaurants } = useSelector(restaurantsSelector)
 
   const handleThemeChange = () => {
     const newTheme = !isDarkMode ? 'Dark' : 'Default'
@@ -40,7 +46,7 @@ const NavBar = (props: NavBarProps) => {
                 onClick={handleOpen}
                 color="inherit"
               >
-                <Badge badgeContent={5} color="secondary">
+                <Badge badgeContent={cartItemCount} color="secondary">
                   <ShoppingCartOutlinedIcon />
                 </Badge>
               </IconButton>
@@ -56,17 +62,12 @@ const NavBar = (props: NavBarProps) => {
         }
       >
         <Hidden smDown>
-          <NavBarLeftMenu
-            restaurants={[
-              { id: 1, name: 'Mc Donald' },
-              { id: 2, name: 'Eatery Hub' },
-            ]}
-          />
+          <NavBarLeftMenu restaurants={restaurants} />
         </Hidden>
       </NavToolBar>
       <SideDrawer anchor="right" open={open} onClose={handleClose} keepMounted>
         <Paper elevation={0} square>
-          ShoppingCart
+          <ShoppingCart elevation={0} onOrder={handleClose} />
         </Paper>
       </SideDrawer>
     </NavBarRoot>

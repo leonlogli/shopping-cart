@@ -1,53 +1,27 @@
-import React, { useEffect, ReactElement } from 'react'
-import RestaurantIcon from '@material-ui/icons/Restaurant'
-import SearchIcon from '@material-ui/icons/Search'
-import Home from '@material-ui/icons/Home'
+import React, { useEffect } from 'react'
 import { AppBarProps } from '@material-ui/core/AppBar'
 import { useRouter } from 'next/router'
-import Slide from '@material-ui/core/Slide'
-import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined'
-import useScrollTrigger from '@material-ui/core/useScrollTrigger'
-import Badge from '@material-ui/core/Badge'
 
 import { SlideTransition, BottomNavigation } from '../../../components'
+import HideOnScroll from './HideOnScroll'
 
 import { BottomNavBarRoot, ShoppingCartDialog } from './BottomNavBar.style'
 
 import { useModal } from '../../../hooks'
+import { ShoppingCart } from '../../../modules/cart'
+import navLinks from './navLinks'
+import { SearchPaneDialog } from '../../../modules/search'
 
 export type BottomNavBarProps = AppBarProps
 
-const HideOnScroll = ({ children }: { children: ReactElement }) => {
-  const trigger = useScrollTrigger()
-
-  return (
-    <Slide appear={false} direction="up" in={!trigger}>
-      {children}
-    </Slide>
-  )
-}
-
-const navLinks = [
-  { label: 'Home', value: '/', icon: <Home /> },
-  {
-    label: 'Restaurants',
-    value: '#Restaurants',
-    icon: <RestaurantIcon />,
-  },
-  { label: 'Rechercher', value: '#search', icon: <SearchIcon /> },
-  {
-    label: 'Cart',
-    value: '#ShoppingCart',
-    icon: (
-      <Badge badgeContent={5} color="secondary">
-        <ShoppingCartOutlinedIcon />
-      </Badge>
-    ),
-  },
-]
-
 const BottomNavBar = (props: BottomNavBarProps) => {
   const router = useRouter()
+
+  const {
+    handleClose: handleSearchDialogClose,
+    handleOpen: handleSearchDialogOpen,
+    open: searchDialogOpen,
+  } = useModal()
 
   const {
     handleClose: handleShoppingCartClose,
@@ -58,6 +32,9 @@ const BottomNavBar = (props: BottomNavBarProps) => {
   const handleChange = (value: string) => {
     if (value === '#ShoppingCart') {
       handleShoppingCartDialogOpen()
+    } else router.push(value)
+    if (value === '#search') {
+      handleSearchDialogOpen()
     } else router.push(value)
   }
 
@@ -74,16 +51,19 @@ const BottomNavBar = (props: BottomNavBarProps) => {
     <HideOnScroll>
       <BottomNavBarRoot position="fixed" color="primary" {...props}>
         <BottomNavigation links={navLinks} onChange={handleChange} />
-
+        <SearchPaneDialog
+          onClose={handleSearchDialogClose}
+          open={searchDialogOpen}
+        />
         <ShoppingCartDialog
           open={openShoppingCartDialog}
           onClose={handleShoppingCartClose}
-          title="ShoppingCart"
+          title="Your basket"
           aria-labelledby="ShoppingCart-dialog-title"
           TransitionComponent={SlideTransition}
           keepMounted
         >
-          shopping cart
+          <ShoppingCart className="Cart" />
         </ShoppingCartDialog>
       </BottomNavBarRoot>
     </HideOnScroll>

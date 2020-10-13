@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RestaurantCard /> should match a snapshot 1`] = `
+<RestaurantCard
+  category="Repas variés"
+  image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+  title="Restaurant Principal"
+>
+  <Styled(Component)
+    className="RestaurantCard "
+  >
+    <ForwardRef
+      className="euvjqF RestaurantCard "
+    >
+      <Styled(Styled(MuiBox))
+        className="euvjqF RestaurantCard "
+      >
+        <Styled(MuiBox)
+          className="dUNeVP euvjqF RestaurantCard "
+        >
+          <div
+            className="MuiBox-root MuiBox-root-1 dUNeVP euvjqF RestaurantCard "
+          >
+            <RatioBox
+              ratio={94}
+            >
+              <ForwardRef>
+                <Styled(Styled(MuiBox))>
+                  <Styled(MuiBox)
+                    className="dUNeVP"
+                  >
+                    <div
+                      className="MuiBox-root MuiBox-root-2 dUNeVP"
+                    >
+                      <Styled(Component)
+                        ratio={94}
+                      >
+                        <ForwardRef
+                          className="fxmcfe"
+                          ratio={94}
+                        >
+                          <Styled(Styled(MuiBox))
+                            className="fxmcfe"
+                            ratio={94}
+                          >
+                            <Styled(MuiBox)
+                              className="dUNeVP fxmcfe"
+                              ratio={94}
+                            >
+                              <div
+                                className="MuiBox-root MuiBox-root-3 dUNeVP fxmcfe"
+                                ratio={94}
+                              >
+                                <Styled(Component)>
+                                  <ForwardRef
+                                    className="kxbNdS"
+                                  >
+                                    <Styled(Styled(MuiBox))
+                                      className="kxbNdS"
+                                    >
+                                      <Styled(MuiBox)
+                                        className="dUNeVP kxbNdS"
+                                      >
+                                        <div
+                                          className="MuiBox-root MuiBox-root-4 dUNeVP kxbNdS"
+                                        >
+                                          <Styled(WithStyles(ForwardRef(CardActionArea)))
+                                            image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                          >
+                                            <WithStyles(ForwardRef(CardActionArea))
+                                              className="kgIEMH"
+                                              image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                            >
+                                              <ForwardRef(CardActionArea)
+                                                className="kgIEMH"
+                                                classes={
+                                                  Object {
+                                                    "focusHighlight": "MuiCardActionArea-focusHighlight",
+                                                    "focusVisible": "Mui-focusVisible",
+                                                    "root": "MuiCardActionArea-root",
+                                                  }
+                                                }
+                                                image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                              >
+                                                <WithStyles(ForwardRef(ButtonBase))
+                                                  className="MuiCardActionArea-root kgIEMH"
+                                                  focusVisibleClassName="Mui-focusVisible"
+                                                  image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                                >
+                                                  <ForwardRef(ButtonBase)
+                                                    className="MuiCardActionArea-root kgIEMH"
+                                                    classes={
+                                                      Object {
+                                                        "disabled": "Mui-disabled",
+                                                        "focusVisible": "Mui-focusVisible",
+                                                        "root": "MuiButtonBase-root",
+                                                      }
+                                                    }
+                                                    focusVisibleClassName="Mui-focusVisible"
+                                                    image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                                  >
+                                                    <button
+                                                      className="MuiButtonBase-root MuiCardActionArea-root kgIEMH"
+                                                      disabled={false}
+                                                      image="https://www.uir.ac.ma/upload/cbuilder/3e5aa8eb56fb64e0d9340fa21687e7693c14fe56.png"
+                                                      onBlur={[Function]}
+                                                      onDragLeave={[Function]}
+                                                      onFocus={[Function]}
+                                                      onKeyDown={[Function]}
+                                                      onKeyUp={[Function]}
+                                                      onMouseDown={[Function]}
+                                                      onMouseLeave={[Function]}
+                                                      onMouseUp={[Function]}
+                                                      onTouchEnd={[Function]}
+                                                      onTouchMove={[Function]}
+                                                      onTouchStart={[Function]}
+                                                      tabIndex={0}
+                                                      type="button"
+                                                    >
+                                                      <Styled(H6)
+                                                        className="Title"
+                                                      >
+                                                        <H6
+                                                          className="fOaJtt Title"
+                                                        >
+                                                          <Styled(WithStyles(ForwardRef(Typography)))
+                                                            className="fOaJtt Title"
+                                                            variant="h6"
+                                                          >
+                                                            <WithStyles(ForwardRef(Typography))
+                                                              className="fOaJtt Title"
+                                                              variant="h6"
+                                                            >
+                                                              <ForwardRef(Typography)
+                                                                className="fOaJtt Title"
+                                                                classes={
+                                                                  Object {
+                                                                    "alignCenter": "MuiTypography-alignCenter",
+                                                                    "alignJustify": "MuiTypography-alignJustify",
+                                                                    "alignLeft": "MuiTypography-alignLeft",
+                                                                    "alignRight": "MuiTypography-alignRight",
+                                                                    "body1": "MuiTypography-body1",
+                                                                    "body2": "MuiTypography-body2",
+                                                                    "button": "MuiTypography-button",
+                                                                    "caption": "MuiTypography-caption",
+                                                                    "colorError": "MuiTypography-colorError",
+                                                                    "colorInherit": "MuiTypography-colorInherit",
+                                                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                                                    "displayBlock": "MuiTypography-displayBlock",
+                                                                    "displayInline": "MuiTypography-displayInline",
+                                                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                                                    "h1": "MuiTypography-h1",
+                                                                    "h2": "MuiTypography-h2",
+                                                                    "h3": "MuiTypography-h3",
+                                                                    "h4": "MuiTypography-h4",
+                                                                    "h5": "MuiTypography-h5",
+                                                                    "h6": "MuiTypography-h6",
+                                                                    "noWrap": "MuiTypography-noWrap",
+                                                                    "overline": "MuiTypography-overline",
+                                                                    "paragraph": "MuiTypography-paragraph",
+                                                                    "root": "MuiTypography-root",
+                                                                    "srOnly": "MuiTypography-srOnly",
+                                                                    "subtitle1": "MuiTypography-subtitle1",
+                                                                    "subtitle2": "MuiTypography-subtitle2",
+                                                                  }
+                                                                }
+                                                                variant="h6"
+                                                              >
+                                                                <h6
+                                                                  className="MuiTypography-root fOaJtt Title MuiTypography-h6"
+                                                                >
+                                                                  Restaurant Principal
+                                                                </h6>
+                                                              </ForwardRef(Typography)>
+                                                            </WithStyles(ForwardRef(Typography))>
+                                                          </Styled(WithStyles(ForwardRef(Typography)))>
+                                                        </H6>
+                                                      </Styled(H6)>
+                                                      <Styled(Component)>
+                                                        <ForwardRef
+                                                          className="hueOnz"
+                                                        >
+                                                          <Styled(Styled(MuiBox))
+                                                            className="hueOnz"
+                                                          >
+                                                            <Styled(MuiBox)
+                                                              className="dUNeVP hueOnz"
+                                                            >
+                                                              <div
+                                                                className="MuiBox-root MuiBox-root-5 dUNeVP hueOnz"
+                                                              >
+                                                                Repas variés
+                                                              </div>
+                                                            </Styled(MuiBox)>
+                                                          </Styled(Styled(MuiBox))>
+                                                        </ForwardRef>
+                                                      </Styled(Component)>
+                                                      <span
+                                                        className="MuiCardActionArea-focusHighlight"
+                                                      />
+                                                      <WithStyles(memo)
+                                                        center={false}
+                                                      >
+                                                        <ForwardRef(TouchRipple)
+                                                          center={false}
+                                                          classes={
+                                                            Object {
+                                                              "child": "MuiTouchRipple-child",
+                                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                                              "ripple": "MuiTouchRipple-ripple",
+                                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                              "root": "MuiTouchRipple-root",
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="MuiTouchRipple-root"
+                                                          >
+                                                            <TransitionGroup
+                                                              childFactory={[Function]}
+                                                              component={null}
+                                                              exit={true}
+                                                            />
+                                                          </span>
+                                                        </ForwardRef(TouchRipple)>
+                                                      </WithStyles(memo)>
+                                                    </button>
+                                                  </ForwardRef(ButtonBase)>
+                                                </WithStyles(ForwardRef(ButtonBase))>
+                                              </ForwardRef(CardActionArea)>
+                                            </WithStyles(ForwardRef(CardActionArea))>
+                                          </Styled(WithStyles(ForwardRef(CardActionArea)))>
+                                          <Styled(Text)
+                                            open={true}
+                                            variant="button"
+                                          >
+                                            <Text
+                                              className="gUpNge"
+                                              open={true}
+                                              variant="button"
+                                            >
+                                              <Styled(WithStyles(ForwardRef(Typography)))
+                                                className="gUpNge"
+                                                open={true}
+                                                variant="button"
+                                              >
+                                                <WithStyles(ForwardRef(Typography))
+                                                  className="gUpNge"
+                                                  open={true}
+                                                  variant="button"
+                                                >
+                                                  <ForwardRef(Typography)
+                                                    className="gUpNge"
+                                                    classes={
+                                                      Object {
+                                                        "alignCenter": "MuiTypography-alignCenter",
+                                                        "alignJustify": "MuiTypography-alignJustify",
+                                                        "alignLeft": "MuiTypography-alignLeft",
+                                                        "alignRight": "MuiTypography-alignRight",
+                                                        "body1": "MuiTypography-body1",
+                                                        "body2": "MuiTypography-body2",
+                                                        "button": "MuiTypography-button",
+                                                        "caption": "MuiTypography-caption",
+                                                        "colorError": "MuiTypography-colorError",
+                                                        "colorInherit": "MuiTypography-colorInherit",
+                                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                                        "displayBlock": "MuiTypography-displayBlock",
+                                                        "displayInline": "MuiTypography-displayInline",
+                                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                                        "h1": "MuiTypography-h1",
+                                                        "h2": "MuiTypography-h2",
+                                                        "h3": "MuiTypography-h3",
+                                                        "h4": "MuiTypography-h4",
+                                                        "h5": "MuiTypography-h5",
+                                                        "h6": "MuiTypography-h6",
+                                                        "noWrap": "MuiTypography-noWrap",
+                                                        "overline": "MuiTypography-overline",
+                                                        "paragraph": "MuiTypography-paragraph",
+                                                        "root": "MuiTypography-root",
+                                                        "srOnly": "MuiTypography-srOnly",
+                                                        "subtitle1": "MuiTypography-subtitle1",
+                                                        "subtitle2": "MuiTypography-subtitle2",
+                                                      }
+                                                    }
+                                                    open={true}
+                                                    variant="button"
+                                                  >
+                                                    <span
+                                                      className="MuiTypography-root gUpNge MuiTypography-button"
+                                                      open={true}
+                                                    >
+                                                      open
+                                                    </span>
+                                                  </ForwardRef(Typography)>
+                                                </WithStyles(ForwardRef(Typography))>
+                                              </Styled(WithStyles(ForwardRef(Typography)))>
+                                            </Text>
+                                          </Styled(Text)>
+                                        </div>
+                                      </Styled(MuiBox)>
+                                    </Styled(Styled(MuiBox))>
+                                  </ForwardRef>
+                                </Styled(Component)>
+                              </div>
+                            </Styled(MuiBox)>
+                          </Styled(Styled(MuiBox))>
+                        </ForwardRef>
+                      </Styled(Component)>
+                    </div>
+                  </Styled(MuiBox)>
+                </Styled(Styled(MuiBox))>
+              </ForwardRef>
+            </RatioBox>
+          </div>
+        </Styled(MuiBox)>
+      </Styled(Styled(MuiBox))>
+    </ForwardRef>
+  </Styled(Component)>
+</RestaurantCard>
+`;

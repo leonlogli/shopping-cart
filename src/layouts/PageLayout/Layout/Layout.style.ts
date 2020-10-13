@@ -4,15 +4,6 @@ import { Box } from '../../../components'
 
 const Main = styled.main`
   flex: 1 0 auto;
-
-  ${({ theme, scroll }: any) =>
-    css`
-      ${theme.breakpoints.down('sm')} {
-        > div:last-child {
-          padding-bottom: ${!scroll ? '72px' : 0};
-        }
-      }
-    `}
 `
 
 const PageLayoutRoot = styled(Box)`

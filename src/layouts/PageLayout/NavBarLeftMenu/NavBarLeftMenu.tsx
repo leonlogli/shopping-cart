@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import MenuList from '@material-ui/core/MenuList'
+import ClickAwayListener from '@material-ui/core/ClickAwayListener'
 
 import { Box, BoxProps, NavItem, MenuItem } from '../../../components'
 import NavBarBrand from '../NavBarBrand'
@@ -37,33 +38,35 @@ const NavBarLeftMenu = ({ restaurants, ...other }: NavBarProps) => {
   return (
     <Box display="flex" alignItems="center" {...other}>
       <NavBarBrand />
-      <MenuContainer>
-        {menuLinks.map(({ text, ...otherProps }) => (
-          <NavItem
-            key={text}
-            {...otherProps}
-            active={otherProps.href === pathname}
-            onMouseEnter={handleNavItemMouseEnter(text)}
-            onClick={handleNavItemMouseEnter(text)}
-          >
-            {text}
-          </NavItem>
-        ))}
-        <RestoPopper open={!!anchorEl} anchorEl={anchorEl} keepMounted>
-          <MenuPane elevation={4}>
-            <MenuList>
-              {restaurants.map((resto) => (
-                <MenuItem
-                  key={resto.id}
-                  text={resto.name}
-                  href={`/restaurants/${resto.id}`}
-                  onClick={handleClose}
-                />
-              ))}
-            </MenuList>
-          </MenuPane>
-        </RestoPopper>
-      </MenuContainer>
+      <ClickAwayListener onClickAway={handleClose}>
+        <MenuContainer>
+          {menuLinks.map(({ text, ...otherProps }) => (
+            <NavItem
+              key={text}
+              {...otherProps}
+              active={otherProps.href === pathname}
+              onMouseEnter={handleNavItemMouseEnter(text)}
+              onClick={handleNavItemMouseEnter(text)}
+            >
+              {text}
+            </NavItem>
+          ))}
+          <RestoPopper open={!!anchorEl} anchorEl={anchorEl} keepMounted>
+            <MenuPane elevation={4}>
+              <MenuList>
+                {restaurants.map((resto) => (
+                  <MenuItem
+                    key={resto.id}
+                    text={resto.name}
+                    href={`/restaurants/${resto.id}`}
+                    onClick={handleClose}
+                  />
+                ))}
+              </MenuList>
+            </MenuPane>
+          </RestoPopper>
+        </MenuContainer>
+      </ClickAwayListener>
     </Box>
   )
 }

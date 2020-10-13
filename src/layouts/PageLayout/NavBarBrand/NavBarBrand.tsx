@@ -20,7 +20,7 @@ const NavBarBrand = (props: NavBarBrandProps) => {
       <Link underline="none" href="/">
         <Logo
           size={logoProps?.size || '26'}
-          fill={logoProps?.fill}
+          fill={logoProps?.fill || 'currentColor'}
           color={logoProps?.color}
         />
       </Link>

@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingCartItem /> should match a snapshot 1`] = `
+<ShoppingCartItem
+  onDecrement={[MockFunction]}
+  onIncrement={[MockFunction]}
+  price={27}
+  quantity={1}
+  resto="ArtChill"
+  title="Tacos cordon Bleu"
+>
+  <Styled(Component)
+    className="ShoppingCartItem "
+  >
+    <ForwardRef
+      className="ijNViZ ShoppingCartItem "
+    >
+      <Styled(Styled(MuiBox))
+        className="ijNViZ ShoppingCartItem "
+      >
+        <Styled(MuiBox)
+          className="dUNeVP ijNViZ ShoppingCartItem "
+        >
+          <div
+            className="MuiBox-root MuiBox-root-1 dUNeVP ijNViZ ShoppingCartItem "
+          >
+            <ForwardRef
+              flexGrow={1}
+            >
+              <Styled(Styled(MuiBox))
+                flexGrow={1}
+              >
+                <Styled(MuiBox)
+                  className="dUNeVP"
+                  flexGrow={1}
+                >
+                  <div
+                    className="MuiBox-root MuiBox-root-2 dUNeVP"
+                  >
+                    <Styled(Text)
+                      className="Title"
+                    >
+                      <Text
+                        className="glOHi Title"
+                      >
+                        <Styled(WithStyles(ForwardRef(Typography)))
+                          className="glOHi Title"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="glOHi Title"
+                          >
+                            <ForwardRef(Typography)
+                              className="glOHi Title"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                            >
+                              <p
+                                className="MuiTypography-root glOHi Title MuiTypography-body1"
+                              >
+                                Tacos cordon Bleu
+                              </p>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </Styled(WithStyles(ForwardRef(Typography)))>
+                      </Text>
+                    </Styled(Text)>
+                    <ForwardRef
+                      className="subTitleBox"
+                    >
+                      <Styled(Styled(MuiBox))
+                        className="subTitleBox"
+                      >
+                        <Styled(MuiBox)
+                          className="dUNeVP subTitleBox"
+                        >
+                          <div
+                            className="MuiBox-root MuiBox-root-3 dUNeVP subTitleBox"
+                          >
+                            <Text
+                              variant="caption"
+                            >
+                              <Styled(WithStyles(ForwardRef(Typography)))
+                                variant="caption"
+                              >
+                                <WithStyles(ForwardRef(Typography))
+                                  className=""
+                                  variant="caption"
+                                >
+                                  <ForwardRef(Typography)
+                                    className=""
+                                    classes={
+                                      Object {
+                                        "alignCenter": "MuiTypography-alignCenter",
+                                        "alignJustify": "MuiTypography-alignJustify",
+                                        "alignLeft": "MuiTypography-alignLeft",
+                                        "alignRight": "MuiTypography-alignRight",
+                                        "body1": "MuiTypography-body1",
+                                        "body2": "MuiTypography-body2",
+                                        "button": "MuiTypography-button",
+                                        "caption": "MuiTypography-caption",
+                                        "colorError": "MuiTypography-colorError",
+                                        "colorInherit": "MuiTypography-colorInherit",
+                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                        "displayBlock": "MuiTypography-displayBlock",
+                                        "displayInline": "MuiTypography-displayInline",
+                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                        "h1": "MuiTypography-h1",
+                                        "h2": "MuiTypography-h2",
+                                        "h3": "MuiTypography-h3",
+                                        "h4": "MuiTypography-h4",
+                                        "h5": "MuiTypography-h5",
+                                        "h6": "MuiTypography-h6",
+                                        "noWrap": "MuiTypography-noWrap",
+                                        "overline": "MuiTypography-overline",
+                                        "paragraph": "MuiTypography-paragraph",
+                                        "root": "MuiTypography-root",
+                                        "srOnly": "MuiTypography-srOnly",
+                                        "subtitle1": "MuiTypography-subtitle1",
+                                        "subtitle2": "MuiTypography-subtitle2",
+                                      }
+                                    }
+                                    variant="caption"
+                                  >
+                                    <span
+                                      className="MuiTypography-root MuiTypography-caption"
+                                    >
+                                      27.00 MAD
+                                    </span>
+                                  </ForwardRef(Typography)>
+                                </WithStyles(ForwardRef(Typography))>
+                              </Styled(WithStyles(ForwardRef(Typography)))>
+                            </Text>
+                            <ForwardRef>
+                              <WithStyles(ForwardRef(SvgIcon))>
+                                <ForwardRef(SvgIcon)
+                                  classes={
+                                    Object {
+                                      "colorAction": "MuiSvgIcon-colorAction",
+                                      "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                      "colorError": "MuiSvgIcon-colorError",
+                                      "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                      "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                      "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                      "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                      "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                      "root": "MuiSvgIcon-root",
+                                    }
+                                  }
+                                >
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
+                                    />
+                                  </svg>
+                                </ForwardRef(SvgIcon)>
+                              </WithStyles(ForwardRef(SvgIcon))>
+                            </ForwardRef>
+                            <Text
+                              variant="caption"
+                            >
+                              <Styled(WithStyles(ForwardRef(Typography)))
+                                variant="caption"
+                              >
+                                <WithStyles(ForwardRef(Typography))
+                                  className=""
+                                  variant="caption"
+                                >
+                                  <ForwardRef(Typography)
+                                    className=""
+                                    classes={
+                                      Object {
+                                        "alignCenter": "MuiTypography-alignCenter",
+                                        "alignJustify": "MuiTypography-alignJustify",
+                                        "alignLeft": "MuiTypography-alignLeft",
+                                        "alignRight": "MuiTypography-alignRight",
+                                        "body1": "MuiTypography-body1",
+                                        "body2": "MuiTypography-body2",
+                                        "button": "MuiTypography-button",
+                                        "caption": "MuiTypography-caption",
+                                        "colorError": "MuiTypography-colorError",
+                                        "colorInherit": "MuiTypography-colorInherit",
+                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                        "displayBlock": "MuiTypography-displayBlock",
+                                        "displayInline": "MuiTypography-displayInline",
+                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                        "h1": "MuiTypography-h1",
+                                        "h2": "MuiTypography-h2",
+                                        "h3": "MuiTypography-h3",
+                                        "h4": "MuiTypography-h4",
+                                        "h5": "MuiTypography-h5",
+                                        "h6": "MuiTypography-h6",
+                                        "noWrap": "MuiTypography-noWrap",
+                                        "overline": "MuiTypography-overline",
+                                        "paragraph": "MuiTypography-paragraph",
+                                        "root": "MuiTypography-root",
+                                        "srOnly": "MuiTypography-srOnly",
+                                        "subtitle1": "MuiTypography-subtitle1",
+                                        "subtitle2": "MuiTypography-subtitle2",
+                                      }
+                                    }
+                                    variant="caption"
+                                  >
+                                    <span
+                                      className="MuiTypography-root MuiTypography-caption"
+                                    >
+                                      ArtChill
+                                    </span>
+                                  </ForwardRef(Typography)>
+                                </WithStyles(ForwardRef(Typography))>
+                              </Styled(WithStyles(ForwardRef(Typography)))>
+                            </Text>
+                          </div>
+                        </Styled(MuiBox)>
+                      </Styled(Styled(MuiBox))>
+                    </ForwardRef>
+                  </div>
+                </Styled(MuiBox)>
+              </Styled(Styled(MuiBox))>
+            </ForwardRef>
+            <CountButton
+              onDecrement={[MockFunction]}
+              onIncrement={[MockFunction]}
+            >
+              <Styled(Component)>
+                <ForwardRef
+                  className="iGfiUd"
+                >
+                  <Styled(Styled(MuiBox))
+                    className="iGfiUd"
+                  >
+                    <Styled(MuiBox)
+                      className="dUNeVP iGfiUd"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-4 dUNeVP iGfiUd"
+                      >
+                        <WithStyles(ForwardRef(IconButton))
+                          aria-label="remove"
+                          color="inherit"
+                          onClick={[MockFunction]}
+                          size="small"
+                        >
+                          <ForwardRef(IconButton)
+                            aria-label="remove"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiIconButton-colorInherit",
+                                "colorPrimary": "MuiIconButton-colorPrimary",
+                                "colorSecondary": "MuiIconButton-colorSecondary",
+                                "disabled": "Mui-disabled",
+                                "edgeEnd": "MuiIconButton-edgeEnd",
+                                "edgeStart": "MuiIconButton-edgeStart",
+                                "label": "MuiIconButton-label",
+                                "root": "MuiIconButton-root",
+                                "sizeSmall": "MuiIconButton-sizeSmall",
+                              }
+                            }
+                            color="inherit"
+                            onClick={[MockFunction]}
+                            size="small"
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              aria-label="remove"
+                              centerRipple={true}
+                              className="MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                              disabled={false}
+                              focusRipple={true}
+                              onClick={[MockFunction]}
+                            >
+                              <ForwardRef(ButtonBase)
+                                aria-label="remove"
+                                centerRipple={true}
+                                className="MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                disabled={false}
+                                focusRipple={true}
+                                onClick={[MockFunction]}
+                              >
+                                <button
+                                  aria-label="remove"
+                                  className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[MockFunction]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiIconButton-label"
+                                  >
+                                    <ForwardRef>
+                                      <WithStyles(ForwardRef(SvgIcon))>
+                                        <ForwardRef(SvgIcon)
+                                          classes={
+                                            Object {
+                                              "colorAction": "MuiSvgIcon-colorAction",
+                                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                              "colorError": "MuiSvgIcon-colorError",
+                                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                              "root": "MuiSvgIcon-root",
+                                            }
+                                          }
+                                        >
+                                          <svg
+                                            aria-hidden={true}
+                                            className="MuiSvgIcon-root"
+                                            focusable="false"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path
+                                              d="M19 13H5v-2h14v2z"
+                                            />
+                                          </svg>
+                                        </ForwardRef(SvgIcon)>
+                                      </WithStyles(ForwardRef(SvgIcon))>
+                                    </ForwardRef>
+                                  </span>
+                                  <WithStyles(memo)
+                                    center={true}
+                                  >
+                                    <ForwardRef(TouchRipple)
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child",
+                                          "childLeaving": "MuiTouchRipple-childLeaving",
+                                          "childPulsate": "MuiTouchRipple-childPulsate",
+                                          "ripple": "MuiTouchRipple-ripple",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                          "root": "MuiTouchRipple-root",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root"
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          component={null}
+                                          exit={true}
+                                        />
+                                      </span>
+                                    </ForwardRef(TouchRipple)>
+                                  </WithStyles(memo)>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(IconButton)>
+                        </WithStyles(ForwardRef(IconButton))>
+                        <Text
+                          variant="button"
+                        >
+                          <Styled(WithStyles(ForwardRef(Typography)))
+                            variant="button"
+                          >
+                            <WithStyles(ForwardRef(Typography))
+                              className=""
+                              variant="button"
+                            >
+                              <ForwardRef(Typography)
+                                className=""
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                                variant="button"
+                              >
+                                <span
+                                  className="MuiTypography-root MuiTypography-button"
+                                >
+                                  1
+                                </span>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </Styled(WithStyles(ForwardRef(Typography)))>
+                        </Text>
+                        <WithStyles(ForwardRef(IconButton))
+                          aria-label="add"
+                          color="inherit"
+                          onClick={[MockFunction]}
+                          size="small"
+                        >
+                          <ForwardRef(IconButton)
+                            aria-label="add"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiIconButton-colorInherit",
+                                "colorPrimary": "MuiIconButton-colorPrimary",
+                                "colorSecondary": "MuiIconButton-colorSecondary",
+                                "disabled": "Mui-disabled",
+                                "edgeEnd": "MuiIconButton-edgeEnd",
+                                "edgeStart": "MuiIconButton-edgeStart",
+                                "label": "MuiIconButton-label",
+                                "root": "MuiIconButton-root",
+                                "sizeSmall": "MuiIconButton-sizeSmall",
+                              }
+                            }
+                            color="inherit"
+                            onClick={[MockFunction]}
+                            size="small"
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              aria-label="add"
+                              centerRipple={true}
+                              className="MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                              disabled={false}
+                              focusRipple={true}
+                              onClick={[MockFunction]}
+                            >
+                              <ForwardRef(ButtonBase)
+                                aria-label="add"
+                                centerRipple={true}
+                                className="MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                disabled={false}
+                                focusRipple={true}
+                                onClick={[MockFunction]}
+                              >
+                                <button
+                                  aria-label="add"
+                                  className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[MockFunction]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiIconButton-label"
+                                  >
+                                    <ForwardRef>
+                                      <WithStyles(ForwardRef(SvgIcon))>
+                                        <ForwardRef(SvgIcon)
+                                          classes={
+                                            Object {
+                                              "colorAction": "MuiSvgIcon-colorAction",
+                                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                              "colorError": "MuiSvgIcon-colorError",
+                                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                              "root": "MuiSvgIcon-root",
+                                            }
+                                          }
+                                        >
+                                          <svg
+                                            aria-hidden={true}
+                                            className="MuiSvgIcon-root"
+                                            focusable="false"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path
+                                              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                            />
+                                          </svg>
+                                        </ForwardRef(SvgIcon)>
+                                      </WithStyles(ForwardRef(SvgIcon))>
+                                    </ForwardRef>
+                                  </span>
+                                  <WithStyles(memo)
+                                    center={true}
+                                  >
+                                    <ForwardRef(TouchRipple)
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child",
+                                          "childLeaving": "MuiTouchRipple-childLeaving",
+                                          "childPulsate": "MuiTouchRipple-childPulsate",
+                                          "ripple": "MuiTouchRipple-ripple",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                          "root": "MuiTouchRipple-root",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root"
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          component={null}
+                                          exit={true}
+                                        />
+                                      </span>
+                                    </ForwardRef(TouchRipple)>
+                                  </WithStyles(memo)>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(IconButton)>
+                        </WithStyles(ForwardRef(IconButton))>
+                      </div>
+                    </Styled(MuiBox)>
+                  </Styled(Styled(MuiBox))>
+                </ForwardRef>
+              </Styled(Component)>
+            </CountButton>
+          </div>
+        </Styled(MuiBox)>
+      </Styled(Styled(MuiBox))>
+    </ForwardRef>
+  </Styled(Component)>
+</ShoppingCartItem>
+`;

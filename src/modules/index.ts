@@ -1,6 +1,16 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-const rootReducer = combineReducers({})
+import cartReducer from './cart'
+import restaurantReducer from './restaurant'
+import searchReducer from './search'
+import menuReducer from './menu'
+
+const rootReducer = combineReducers({
+  cart: cartReducer,
+  restaurant: restaurantReducer,
+  search: searchReducer,
+  menu: menuReducer,
+})
 
 export type RootState = ReturnType<typeof rootReducer>
 
