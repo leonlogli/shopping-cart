@@ -40,7 +40,7 @@ const MenuIemsBox = (props: MenuIemsBoxProps) => {
 
   if (error) return <ErrorPage error={error} />
 
-  if (loading) return <LoadingBox />
+  if (loading) return <LoadingBox height="100px" />
 
   if (!restaurantMenus || restaurantMenus.length === 0) {
     return (
