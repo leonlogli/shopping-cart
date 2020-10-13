@@ -9,7 +9,7 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components'
 import { ServerStyleSheets } from '@material-ui/core/styles'
 
-export default class UiRestoDocument extends Document {
+export default class ShoppingCartDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const styledComponentsSheet = new ServerStyleSheet()
     const materialSheets = new ServerStyleSheets()
