@@ -28,7 +28,8 @@ const HeaderTitlePaneRoot = styled(Paper)`
   }
 
   .Status {
-    color: ${({ open }: any) => (!open ? '#d93025' : '#188038')};
+    color: ${({ open, theme }: any) =>
+      !open ? theme.palette.error.main : theme.palette.success.main};
   }
 `
 
