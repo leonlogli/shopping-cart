@@ -2,7 +2,7 @@
 
 This simple shopping cart prototype shows how React components, Redux and NextJS can be used to build a friendly user experience with instant visual updates and scaleable code in SEO optimized ecommerce applications.
 
-[Live Demo](https://github.com/nodejs/node)
+[Live Demo](https://shopping-cart-nine.vercel.app/)
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ This simple shopping cart prototype shows how React components, Redux and NextJS
 
 This project uses a number of open source projects to work properly:
 
-- [React.js](https://github.com/facebook/react), [TypeScript](https://github.com/microsoft/TypeScript) — library & language
+- [React.js](https://github.com/facebook/react), [TypeScript](https://github.com/microsoft/TypeScript) — core library & language
 - [Next.js](https://github.com/vercel/next.js) — The React Framework for production ready apps
 - [Redux](https://github.com/reduxjs/redux), [Redux ToolKit](https://github.com/reduxjs/redux-toolkit) - State management
 - [Styled Components](https://github.com/styled-components/styled-components), — CSS in JS styles
