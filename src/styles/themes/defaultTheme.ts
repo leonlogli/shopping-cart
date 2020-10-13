@@ -12,5 +12,16 @@ export default createTheme({
     secondary: {
       main: '#c8291e',
     },
+    background: {
+      default: '#ffffffe6',
+    },
+  },
+  overrides: {
+    MuiAppBar: {
+      colorPrimary: {
+        color: '#ff5722',
+        backgroundColor: 'white',
+      },
+    },
   },
 })
