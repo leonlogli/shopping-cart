@@ -32,8 +32,7 @@ const BottomNavBar = (props: BottomNavBarProps) => {
   const handleChange = (value: string) => {
     if (value === '#ShoppingCart') {
       handleShoppingCartDialogOpen()
-    } else router.push(value)
-    if (value === '#search') {
+    } else if (value === '#search') {
       handleSearchDialogOpen()
     } else router.push(value)
   }
